@@ -1,4 +1,8 @@
+import '../scss/navbar.scss';
 import React from 'react';
+import {FontAwesomeIcon} from  '@fortawesome/react-fontawesome';
+import {faBars} from '@fortawesome/free-solid-svg-icons';
+import CartWidget from './CartWidget';
 
 // creo un componente de clase,lo extiendo a partir de react
 class NavBar extends React.Component {
@@ -10,8 +14,12 @@ class NavBar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-            <a className="navbar-brand text-info" href="/">Gamalero</a>
-          <button className="navbar-toggler">TOGGLER</button>
+        {/* <a class="navbar-brand" href="#"> */}
+      {/* 
+    </a> */}
+            <a className="navbar-brand" href="/"></a>
+            <img src="/inmobiliaria-gamalero/src/components/img/logo.jpg" alt="" width="30" height="24"/>
+          <button className="navbar-toggler"><FontAwesomeIcon icon ={faBars}/></button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
@@ -41,10 +49,13 @@ class NavBar extends React.Component {
               <li className="nav-item">
                 <a className={this.getNavLinkClass('/contacto')} href="/contacto">Contacto</a>
               </li>
+              <li className="nav-item">
+                <CartWidget/>
+              </li>
             </ul>
           </div>
         </div>
-      </nav>   
+      </nav>
     );
   }
 }
