@@ -1,0 +1,5 @@
+// pisar las variables de bootstrap primero ante de importarlo 
+$body-bg: #000;
+
+// Importacion de  Bootstrap y variables por defecto 
+@import '~bootstrap/scss/bootstrap.scss';

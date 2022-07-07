@@ -3,6 +3,7 @@ import React from 'react';
 import {FontAwesomeIcon} from  '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import CartWidget from './CartWidget';
+import logo from '../img/logo.jpg';
 
 // creo un componente de clase,lo extiendo a partir de react
 class NavBar extends React.Component {
@@ -12,16 +13,14 @@ class NavBar extends React.Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg bg-light bg-opacity-50">
         <div className="container-fluid">
-        {/* <a class="navbar-brand" href="#"> */}
-      {/* 
-    </a> */}
-            <a className="navbar-brand" href="/"></a>
-            <img src="/inmobiliaria-gamalero/src/components/img/logo.jpg" alt="" width="30" height="24"/>
-          <button className="navbar-toggler"><FontAwesomeIcon icon ={faBars}/></button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav ms-auto">
+          <a className="navbar-brand" href="/">
+            <img src={logo} alt="logo" width="60" height="48"/>
+          </a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation"><FontAwesomeIcon icon ={faBars}/></button>
+          <div className="collapse navbar-collapse" id="navbarId">
+            <ul className="navbar-nav ms-auto text-start">
               <li className="nav-item">
                 <a className={this.getNavLinkClass('/')} aria-current="page" href="/">Inicio</a>
               </li>

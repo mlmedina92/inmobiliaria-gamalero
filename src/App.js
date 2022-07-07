@@ -1,17 +1,24 @@
 import './App.scss';
 import NavBar from './components/NavBar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Home from './pages/Home';
+import BotonSumar from './components/BotonSumar';
 
-import ItemListContainer from './components/ItemListContainer';
+
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <header className="sticky-top">
       <NavBar/>
-      <ItemListContainer/>
-    </div>
-  );
+      <BotonSumar/>
+    </header>
+    <main>
+      <Home/>
+    </main>
+    <footer>
+    </footer>
+    </>
+    );
 }
 
 export default App;
