@@ -6,11 +6,12 @@ import React, {useState} from 'react';
 const ItemCount = (initial, stock, onAdd) => {
 
     // inicializo el estado conn la variable initial q paso como props
-    const [quantity,setQuantity] = useState(initial)
+    const [quantity, setQuantity] = useState(1);
 
     // creo constantes para sumar y restar :
 
     const add = () =>{
+        debugger;
         if(quantity < stock){
             const aux = quantity+1;
             setQuantity(aux);
