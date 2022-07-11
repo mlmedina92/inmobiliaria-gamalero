@@ -3,7 +3,8 @@ import ItemListContainer from '../components/ItemListContainer';
 
 const Home = () => {
     return (
-        <>
+        
+        <div>
             <section id="banner" className="container-xxl mb-5">
                 {/* Banner */}
                 <div id="bannerPrincipal" className="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -44,7 +45,7 @@ const Home = () => {
             <ItemListContainer 
                 title="Nuestras oportunidades"
                 data="oportunidades" />
-        </>
+        </div>
     );
 }
 
