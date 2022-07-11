@@ -3,16 +3,19 @@
     {
         "src": "../img/logo.jpg",
         "title": "titulo",
-        "precio": "12"
+        "precio": "12",
+        "stock": "2"
     },
     {
         "src": "../img/logo.jpg",
         "title": "titulo",
-        "precio": "12"
+        "precio": "12",
+        "stock": "3"
     },
     {
         "src": "../img/logo.jpg",
         "title": "titulo",
-        "precio": "12"
+        "precio": "12",
+        "stock": "2"
     }
 ];
