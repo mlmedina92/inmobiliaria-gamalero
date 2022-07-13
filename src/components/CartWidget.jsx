@@ -6,5 +6,5 @@ const CartWidget = () => {
         <FontAwesomeIcon icon ={faCartShopping}/>
     );
 }
- 
+
 export default CartWidget;

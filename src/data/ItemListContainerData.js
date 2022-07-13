@@ -1,21 +1,22 @@
+import logo from '../img/logo.jpg';
 // arreglo de objetos literales, datos de las oportunidades
  export const ItemListContainerData = [
     {
-        "src": "../img/logo.jpg",
+        "src": {logo},
         "title": "titulo",
-        "precio": "12",
-        "stock": "2"
+        "precio": 12,
+        "stock": 2
     },
     {
-        "src": "../img/logo.jpg",
+        "src": {logo},
         "title": "titulo",
-        "precio": "12",
-        "stock": "3"
+        "precio": 12,
+        "stock": 3
     },
     {
-        "src": "../img/logo.jpg",
+        "src": {logo},
         "title": "titulo",
-        "precio": "12",
-        "stock": "2"
+        "precio": 12,
+        "stock": 2
     }
 ];

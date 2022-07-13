@@ -2,8 +2,8 @@ import React from 'react';
 import ItemCount from './ItemCount';
 
 const Item = (props) => {
-    const onAdd = (param) => {
-        alert(`Agregaste ${param} del producto "${props.item.title}" al carrito`);
+    const onAdd = (qty) => {
+      alert(`Agregaste ${qty} del producto "${props.item.title}" al carrito`);
     }
 
   return (
@@ -15,7 +15,7 @@ const Item = (props) => {
         <ItemCount
             initial={1}
             stock={props.item.stock}
-            onAdd={onAdd}
+            onAddCallback={onAdd}
             />
     </div>
   )

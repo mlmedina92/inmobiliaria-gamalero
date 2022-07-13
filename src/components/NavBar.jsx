@@ -6,7 +6,7 @@ import CartWidget from './CartWidget';
 import logo from '../img/logo.jpg';
 
 // creo un componente de clase,lo extiendo a partir de react
-class NavBar extends React.Component {
+class  NavBar extends React.Component {
   // funcion del comp que valida la url activa y retorna las clases 
   getNavLinkClass = (path) => {
     return window.location.pathname === path ? 'nav-link active' : 'nav-link';
@@ -14,7 +14,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg bg-light bg-opacity-50">
-        <div className="container-fluid">
+        <div className= "container-fluid">
           <a className="navbar-brand" href="/">
             <img src={logo} alt="logo" width="60" height="48"/>
           </a>
