@@ -1,10 +1,11 @@
 import { ItemListContainerData } from '../data/ItemListContainerData';
 import Item from '../components/Item';
+import React, {useState} from 'react';
 
 // defino un componente y en home lo llamo y le paso valor por props
 const ItemListContainer = (props) => {
 
-    const [data, setData] = ([]); // aca se van a guardar los datos obtenidos del servidor con promesa
+    const [data, setData] = useState([]); // aca se van a guardar los datos obtenidos del servidor con promesa
 
     // promeesa que levnata los datos de los produtcos
     const dataPromise = new Promise((resolve, reject) => {
@@ -13,13 +14,13 @@ const ItemListContainer = (props) => {
             // reject("mensaje de error"); si no se encuentran los datos o falla algo
         }, 1000); // espera 1seg simulando el tiempo de respuesta del servidor
     });
-    // dataPromise.then(
-    //     (response) => { // resolve y te da en el param response el array
-    //         setData(response);
-    //     },
-    //     (response) => { // reject y responde el mensaje de error
-    //         alert(`Se produjo un error al obtener los datos. Mensaje del error: ${response}`);
-    //     });
+     dataPromise.then(
+         (response) => { // resolve y te da en el param response el array
+             setData(response);
+         },
+         (response) => { // reject y responde el mensaje de error
+             alert(`Se produjo un error al obtener los datos. Mensaje del error: ${response}`);
+         });
 
     return(
         <>
