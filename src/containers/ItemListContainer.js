@@ -12,7 +12,7 @@ const ItemListContainer = (props) => {
         setTimeout(() => {
             resolve(ItemListContainerData);
             // reject("mensaje de error"); si no se encuentran los datos o falla algo
-        }, 1000); // espera 1seg simulando el tiempo de respuesta del servidor
+        }, 2000); // espera 2segs simulando el tiempo de respuesta del servidor
     });
      dataPromise.then(
          (response) => { // resolve y te da en el param response el array

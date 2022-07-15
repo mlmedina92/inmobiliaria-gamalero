@@ -1,6 +1,4 @@
-// funcion useEstate: almacenar un estado, guardar una inf
-
-
+// funcion useEstate: almacenar un estado, guardar una info
 import React, {useState} from 'react';
 
 const ItemCount = ({initial, stock, onAddCallback}) => {
@@ -26,7 +24,7 @@ const ItemCount = ({initial, stock, onAddCallback}) => {
         }else{
             alert(`La compra mínima es de ${1}`);
         }
-    }    
+    }
 
   return (
         <>
