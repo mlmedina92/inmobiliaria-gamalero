@@ -16,7 +16,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg bg-light bg-opacity-50">
       <div className= "container-fluid">
         <a className="navbar-brand" href="/">
-          <img src={logo} alt="logo" width="60" height="48"/>
+          <img src={logo} alt="Gamalero Inmoboliaria" width="60" height="48"/>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation"><FontAwesomeIcon icon ={faBars}/></button>
         <div className="collapse navbar-collapse" id="navbarId">

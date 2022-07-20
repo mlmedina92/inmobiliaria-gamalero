@@ -1,6 +1,8 @@
 import portada from '../img/portada.jpg';
 import ItemListContainer from '../containers/ItemListContainer';
 import Slider from '../components/Slider';
+import ItemDetailContainer from '../containers/ItemDetailContainer';
+import React from 'react';
 
 const Home = () => {
 
@@ -22,14 +24,14 @@ const Home = () => {
     return (
         <div>
             <Slider
-                images={mainSlider}
-                />
+                images={mainSlider} />
 
-            {/* le paso parametros que luego se leen como props.title y props.data */}
+            <ItemDetailContainer />
+
+            {/* llamo al componente ItemListContainer y le paso parametros que luego se leen como props.greeting y props.dataSrc.  */}
             <ItemListContainer
                 greeting="Nuestras oportunidades"
-                data="oportunidades"
-                />
+                dataSrc="oportunidades"/>
         </div>
     );
 }

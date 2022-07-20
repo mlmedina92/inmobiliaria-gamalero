@@ -1,7 +1,7 @@
 // funcion useEstate: almacenar un estado, guardar una info
 import React, {useState} from 'react';
 
-const ItemCount = ({initial, stock, onAddCallback}) => {
+const ItemCount = ({initial, stock, onAddCallback}) => {//esto es desestructuracion de objetos son las props
 
     // inicializo el estado conn la variable initial q paso como props
     const [quantity, setQuantity] = useState(initial);
@@ -28,14 +28,16 @@ const ItemCount = ({initial, stock, onAddCallback}) => {
 
   return (
         <>
-            <div>
-                <div className="card">
-                    <button onClick={substract} type="button" className="btn btn-primary">-</button>
+            <div className="container p-0 text-center">
+                <div className="row align-items-center pb-3 m-0">
+                    <button onClick={substract} type="button" className="btn btn-primary col-4">-</button>
                     {/* quantity va a ser un estado donde guardar los cambios q voy haciendo  */}
-                    <p>{quantity}</p> 
-                    <button onClick={add} type="button" className="btn btn-primary">+</button>
+                    <p className="col-4 m-0">{quantity}</p>
+                    <button onClick={add} type="button" className="btn btn-primary col-4">+</button>
                 </div>
-                <button onClick={() => onAddCallback(quantity)} type="button" className="btn btn-primary">Agregar al carrito</button>
+                <div className="row m-0">
+                    <button onClick={() => onAddCallback(quantity)} type="button" className="btn btn-primary">Agregar al carrito</button>
+                </div>
             </div>
         </>
   )

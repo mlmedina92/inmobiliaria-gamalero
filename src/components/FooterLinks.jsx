@@ -8,7 +8,7 @@ const FooterLinks = () => {
           <div className="row">
             <div className="d-none d-sm-block col-12 col-md-2 col-1">
               <a className="text-decoration-none" href="/" title="Nimax piletas">
-                <img src={logo} alt="Gamalero Inmoboliaria" />
+                <img src={logo} alt="Gamalero Inmoboliaria" width="60" height="48" />
               </a>
             </div>
             <div className="col-12 col-md-3 mb-3">
