@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from '../img/logo.jpg';
 
 const FooterLinks = () => {
@@ -7,29 +8,30 @@ const FooterLinks = () => {
         <div className="container">
           <div className="row">
             <div className="d-none d-sm-block col-12 col-md-2 col-1">
-              <a className="text-decoration-none" href="/" title="Nimax piletas">
+              <NavLink className="text-decoration-none" to="/" title="Nimax piletas">
                 <img src={logo} alt="Gamalero Inmoboliaria" width="60" height="48" />
-              </a>
+              </NavLink>
             </div>
             <div className="col-12 col-md-3 mb-3">
               <ul className="list-unstyled">
-                <li className="pb-2"><a className="text-decoration-none" href="./">Nosotros</a></li>
-                <li className="pb-2"><a className="text-decoration-none" href="./">Distribuidores</a></li>
-                <li className="pb-2"><a className="text-decoration-none" href="./">Galería</a></li>
-                <li className="pb-2"><a className="text-decoration-none" href="./">Contacto</a></li>
+                <li className="pb-2"><NavLink className="text-decoration-none" to="/" element=''>Inicio</NavLink></li>
+                <li className="pb-2"><NavLink className="text-decoration-none" to="/" element='' >Oportunidades</NavLink></li>
+                <li className="pb-2"><NavLink className="text-decoration-none" to="/" element=''>Venta</NavLink></li>
+                <li className="pb-2"><NavLink className="text-decoration-none" to="/" element=''>Nosotros</NavLink></li>
+                <li className="pb-2"><NavLink className="text-decoration-none" to="./  element=''">Contacto</NavLink></li>
               </ul>
             </div>
             <div className="col-12 col-md-4 mb-3">
               <ul className="list-unstyled">
                 <li className="mb-3">
-                  <a className="text-decoration-none" href="tel:2494544221" title="Administración"><i
-                      className="fa-solid fa-phone"></i> Llamanos</a>
+                  <NavLink className="text-decoration-none" to="tel:2494544221" title="Administración"><i
+                      className="fa-solid fa-phone"></i> Llamanos</NavLink>
                 </li>
                 <li>
-                  <a className="text-decoration-none" href="https://goo.gl/maps/EXswAuif3Q6bjLet6">
-                    <i className="fas fa-map-marker-alt"></i> Colectora Pugliese 10. Esquina Pozos<br/>Tandil (7000), Buenos
+                  <NavLink className="text-decoration-none" to="https://goo.gl/maps/EXswAuif3Q6bjLet6">
+                    <i className="fas fa-map-marker-alt"></i> Colectora Pugliese<br/>Tandil (7000), Buenos
                     Aires,
-                    Arg.</a>
+                    Arg.</NavLink>
                 </li>
               </ul>
             </div>

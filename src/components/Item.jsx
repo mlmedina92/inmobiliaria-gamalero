@@ -1,11 +1,7 @@
 import React from 'react';
 import ItemDetailContainer from '../containers/ItemDetailContainer';
-import ItemCount from './ItemCount';
 
 const Item = (props) => {
-    const onAdd = (qty) => {
-      alert(`Agregaste ${qty} del producto "${props.item.name}" al carrito`);
-    }
 
   return (
     <div className="card border rounded">
@@ -18,11 +14,7 @@ const Item = (props) => {
             </p>
         </div>
         <div className="card-footer p-3">
-            <ItemCount
-                initial={1}
-                stock={props.item.stock}
-                onAddCallback={onAdd}
-            />
+          <ItemDetailContainer productId={props.item.id}/>
         </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import {portada} from '../img/portada.jpg';
+import portada from '../img/portada.jpg';
 
 const Nosotros = () => {
     return (

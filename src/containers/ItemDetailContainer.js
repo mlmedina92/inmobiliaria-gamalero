@@ -28,7 +28,7 @@ let product = {
     "reviews": []
   };
 
-const ItemDetailContainer = () => {
+const ItemDetailContainer = ({id}) => {
     const [data, setData] = useState({});
 
     useEffect(() => {
@@ -43,8 +43,34 @@ const ItemDetailContainer = () => {
     
   return (
     <>
-     {/* si lo q esta antes de &&, osea si data no es un obj vacio ejecuta lo q sigue desp de && */}
-    {Object.keys(data).length > 0 && <ItemDetail detail={data}/>}
+
+{/* Button  modal */}
+<button type="button" ClassName="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Ver detalles</button>
+
+{/* Modal */}
+<div ClassName="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div ClassName="modal-dialog">
+    <div ClassName="modal-content">
+      <div ClassName="modal-header">
+        <h5 ClassName="modal-title" id="exampleModalLabel">Título</h5>
+        <button type="button" ClassName="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div ClassName="modal-body">
+            {/* si lo q esta antes de &&, osea si data no es un obj vacio ejecuta lo q sigue desp de && */}
+            {Object.keys(data).length > 0 && <ItemDetail detail={data}/>}
+      </div>
+      <div ClassName="modal-footer">
+        <button type="button" ClassName="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" ClassName="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+   
     </>
   )
 }
