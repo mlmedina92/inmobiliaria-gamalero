@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <header className="sticky-top">
+      <header className="sticky-top headerr">
         <NavBar />
       </header>
       <main>

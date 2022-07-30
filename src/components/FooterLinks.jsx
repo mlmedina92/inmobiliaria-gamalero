@@ -8,30 +8,32 @@ const FooterLinks = () => {
         <div className="container">
           <div className="row">
             <div className="d-none d-sm-block col-12 col-md-2 col-1">
-              <NavLink className="text-decoration-none" to="/" title="Nimax piletas">
+              <NavLink className="text-decoration-none" to="/">
                 <img src={logo} alt="Gamalero Inmoboliaria" width="60" height="48" />
               </NavLink>
             </div>
             <div className="col-12 col-md-3 mb-3">
               <ul className="list-unstyled">
-                <li className="pb-2"><NavLink className="text-decoration-none" to="/" element=''>Inicio</NavLink></li>
-                <li className="pb-2"><NavLink className="text-decoration-none" to="/" element='' >Oportunidades</NavLink></li>
-                <li className="pb-2"><NavLink className="text-decoration-none" to="/" element=''>Venta</NavLink></li>
-                <li className="pb-2"><NavLink className="text-decoration-none" to="/" element=''>Nosotros</NavLink></li>
-                <li className="pb-2"><NavLink className="text-decoration-none" to="./  element=''">Contacto</NavLink></li>
+                <li className="pb-2"><NavLink className="text-decoration-none" to="/" >Inicio</NavLink></li>
+                <li className="pb-2"><NavLink className="text-decoration-none" to="/nosotros" >Nosotros</NavLink></li>
+                <li className="pb-2"><NavLink className="text-decoration-none" to="/contacto">Contacto</NavLink></li>
               </ul>
             </div>
             <div className="col-12 col-md-4 mb-3">
               <ul className="list-unstyled">
                 <li className="mb-3">
-                  <NavLink className="text-decoration-none" to="tel:2494544221" title="Administración"><i
-                      className="fa-solid fa-phone"></i> Llamanos</NavLink>
+                  <a className="text-decoration-none" href="tel:2494544221" title="Administración" target='_blank' rel='noopener noreferrer'><i
+                      className="fa-solid fa-phone"></i> tel1</a>
                 </li>
                 <li>
-                  <NavLink className="text-decoration-none" to="https://goo.gl/maps/EXswAuif3Q6bjLet6">
+                  <a className="text-decoration-none" href="tel:2494544221" title="Administración" target='_blank' rel='noopener noreferrer'><i
+                  className="fa-solid fa-phone"></i> Llamanos</a>
+                </li>
+                <li>
+                  <a className="text-decoration-none" href="https://goo.gl/maps/EXswAuif3Q6bjLet6" target='_blank' rel='noopener noreferrer'>
                     <i className="fas fa-map-marker-alt"></i> Colectora Pugliese<br/>Tandil (7000), Buenos
                     Aires,
-                    Arg.</NavLink>
+                    Arg.</a>
                 </li>
               </ul>
             </div>

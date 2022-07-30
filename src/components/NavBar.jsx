@@ -22,13 +22,13 @@ const NavBar = () => {
         <div className="collapse navbar-collapse text-uppercase" id="navbarId">
           <ul className="navbar-nav ms-auto text-start">
             <li className="nav-item">
-              <NavLink className={({isActive}) => isActive ? navLinkClassNameActive : navLinkClassName} to='/'>Inicio</NavLink>
+              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to='/'>Inicio</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className={({isActive}) => isActive ? navLinkClassNameActive : navLinkClassName} to="/contacto">Alquileres</NavLink>
+              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to="/contacto">Alquileres</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className={({isActive}) => isActive ? navLinkClassNameActive : navLinkClassName} to="/#oportunidades">Oportunidades</NavLink>
+              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to="/#oportunidades">Oportunidades</NavLink>
             </li>
             <li className="nav-item dropdown">
               <NavLink className="nav-link dropdown-toggle" to="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ventas</NavLink>
@@ -43,10 +43,10 @@ const NavBar = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <NavLink className={({isActive}) => isActive ? navLinkClassNameActive : navLinkClassName} to='/nosotros'>Nosotros</NavLink>
+              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to='/nosotros'>Nosotros</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className={({isActive}) => isActive ? navLinkClassNameActive : navLinkClassName} to='/contacto'>Contacto</NavLink>
+              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to='/contacto'>Contacto</NavLink>
             </li>
           </ul>
         </div>
