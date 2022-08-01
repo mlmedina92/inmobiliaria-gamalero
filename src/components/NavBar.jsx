@@ -2,7 +2,7 @@ import '../scss/navbar.scss';
 import React from 'react';
 import {FontAwesomeIcon} from  '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
-import logo from '../img/logo.jpg';
+import logo from '../img/logo.png';
 import { NavLink } from 'react-router-dom';
 
 // creo un componente de clase,lo extiendo a partir de react
@@ -22,13 +22,13 @@ const NavBar = () => {
         <div className="collapse navbar-collapse text-uppercase" id="navbarId">
           <ul className="navbar-nav ms-auto text-start">
             <li className="nav-item">
-              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to='/'>Inicio</NavLink>
+              <NavLink className={navLinkClassName} activeclassname={navLinkClassNameActive} to='/'>Inicio</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to="/contacto">Alquileres</NavLink>
+              <NavLink className={navLinkClassName} activeclassname={navLinkClassNameActive} to="/contacto">Alquileres</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to="/#oportunidades">Oportunidades</NavLink>
+              <NavLink className={navLinkClassName} activeclassname={navLinkClassNameActive} to="/#oportunidades">Oportunidades</NavLink>
             </li>
             <li className="nav-item dropdown">
               <NavLink className="nav-link dropdown-toggle" to="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ventas</NavLink>
@@ -43,10 +43,10 @@ const NavBar = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to='/nosotros'>Nosotros</NavLink>
+              <NavLink className={navLinkClassName} activeclassname={navLinkClassNameActive} to='/nosotros'>Nosotros</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className={navLinkClassName} activeClassName={navLinkClassNameActive} to='/contacto'>Contacto</NavLink>
+              <NavLink className={navLinkClassName} activeclassname={navLinkClassNameActive} to='/contacto'>Contacto</NavLink>
             </li>
           </ul>
         </div>
