@@ -1,4 +1,5 @@
 {
+  "homepage":"https://mlmedina92.github.io/inmobiliaria-gamalero/",
   "name": "inmobiliaria-gamalero",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +48,7 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5.1.12",
+    "gh-pages": "^4.0.0",
     "sass": "^1.53.0"
   }
 }
