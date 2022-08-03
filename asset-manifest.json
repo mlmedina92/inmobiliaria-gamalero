@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/inmobiliaria-gamalero/static/css/main.66bfe081.css",
+    "main.js": "/inmobiliaria-gamalero/static/js/main.1dbef346.js",
+    "static/media/portada.jpg": "/inmobiliaria-gamalero/static/media/portada.ff7041a90dbe4f46bf39.jpg",
+    "index.html": "/inmobiliaria-gamalero/index.html",
+    "main.66bfe081.css.map": "/inmobiliaria-gamalero/static/css/main.66bfe081.css.map",
+    "main.1dbef346.js.map": "/inmobiliaria-gamalero/static/js/main.1dbef346.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66bfe081.css",
+    "static/js/main.1dbef346.js"
+  ]
+}
