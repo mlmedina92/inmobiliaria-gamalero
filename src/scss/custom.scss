@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 
 // pisar las variables de bootstrap primero ante de importarlo 
-$body-bg:#fff;
-$body-color:blue;
-$primary: green;
 $orange:#f2A03D;
 $yellow:#f2b749;
 $white:#f2f2f2;
 $black:#262424;
+
+$body-bg:$white;
+$body-color:$black;
+$primary: $orange;
 $navbar-light-color:$black;
+$link-color: $body-color;
 
 // Importacion de  Bootstrap y variables por defecto 
 @import '../../node_modules/bootstrap/scss/bootstrap';

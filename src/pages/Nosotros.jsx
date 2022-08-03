@@ -25,8 +25,10 @@ const Nosotros = () => {
               <img className="w-100" src={portada} alt="Local de Nimax" />
             </div>
           </div>
-        </div>
-        <Equipo />
+          <div className="row d-flex align-items-center">
+            <Equipo />
+          </div>
+        </div> 
       </section>
     </div>
   );
