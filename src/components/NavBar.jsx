@@ -33,13 +33,13 @@ const NavBar = () => {
             <li className="nav-item dropdown">
               <NavLink className="nav-link dropdown-toggle" to="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ventas</NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><NavLink className="dropdown-item" to='/depto-1a'>Deptos. 1 Dormitorio</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/depto-2a'>Deptos. 2 Dormitorios</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/casas'>Casas</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/lotes'>Lotes</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/lotes'>Quintas</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/lotes'>Hoteles</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/locales'>Locales</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/depto-1a'>Deptos. 1 Dormitorio</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/depto-2a'>Deptos. 2 Dormitorios</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/casas'>Casas</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/lotes'>Lotes</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/quintas'>Quintas</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/hoteles'>Hoteles</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/locales'>Locales</NavLink></li>
               </ul>
             </li>
             <li className="nav-item">

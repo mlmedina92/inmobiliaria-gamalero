@@ -23,11 +23,16 @@ const FooterLinks = () => {
               <ul className="list-unstyled">
                 <li className="mb-3">
                   <a className="text-decoration-none" href="tel:2494287779" title="Administración" target='_blank' rel='noopener noreferrer'><i
-                      className="fa-solid fa-phone"></i> Administracion. Llamanos</a>
+                      className="bi bi-telephone-fill"></i> Administracion. Llamanos</a>
                 </li>
                 <li>
-                  <a className="text-decoration-none" href="tel:249" title="Administración" target='_blank' rel='noopener noreferrer'><i
-                  className="fa-solid fa-phone"></i> ventas . llamada : 2494460909    --- whatsap 2494328146</a>
+                  <a className="text-decoration-none" href="tel:2494460909" title="Administración" target='_blank' rel='noopener noreferrer'><i
+                  className="bi bi-telephone-fill"></i> ventas . llamada : 2494460909</a>
+                </li>
+                <li>
+
+                  <a className="text-decoration-none" href="https://wa.me/2494328146" title="Administración" target='_blank' rel='noopener noreferrer'><i
+                  className="bi bi-whatsapp"></i> ventas . whatsapp 2494328146</a>
                 </li>
                 <li>
                   <a className="text-decoration-none" href="https://goo.gl/maps/EXswAuif3Q6bjLet6" target='_blank' rel='noopener noreferrer'>
@@ -52,7 +57,7 @@ const FooterLinks = () => {
                 </li>
                 <li>
                     <a className="text-decoration-none fs-5" target="_blank" href="mailto:inmobiliariagamalero@gmail.com" rel='noopener noreferrer'
-                    title="E-mail"><i className="bi bi-envelope"></i></a>
+                    title="E-mail"><i className="bi bi-envelope-fill"></i></a>
                 </li>
               </ul>
             </div>

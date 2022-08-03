@@ -1,55 +1,53 @@
-import React, {useState, useEffect} from 'react';
-import ItemList from '../components/ItemList';
+import React, { useState, useEffect } from "react";
+import ItemList from "../components/ItemList";
+import { useParams } from "react-router-dom";
 
-// defino un componente y en home lo llamo y le paso valor por props
-const ItemListContainer = (props) => {
+const inmuebles = [
+  {
+    id: 1,
+    img: "http://gpi-blog.s3.amazonaws.com/wp-content/uploads/2014/03/casa.jpg",
+    category: "casas",
+    title: "casa",
+  },
+  {
+    id: 2,
+    img: "https://i.pinimg.com/originals/48/74/ab/4874ab26bb66155535855421184a5247.jpg",
+    category: "depto-1a",
+    title: "depto1",
+  },
+  {
+    id: 3,
+    img: "http://gpi-blog.s3.amazonaws.com/wp-content/uploads/2014/03/casa.jpg",
+    category: "casas",
+    title: "casa",
+  },
+];
 
-    const [data, setData] = useState([]); // aca se van a guardar los datos obtenidos del servidor con promesa
+const ItemListContainer = ({ greeting }) => {
+  const [data, setData] = useState([]);
+  const { categoriaId } = useParams();
 
-    useEffect(() => {
-        //let url = `../data/${props.dataSrc}.json`;
-        let url = 'https://bodegasdelsur.herokuapp.com/products';
-        fetch(url)
-            .then((response) => response.json())
-            .then((dataJson) => setData(dataJson.products))
-            .catch((error) => alert(error));
-    }, []);
-    // defino la promeesa que levnata los datos de los produtcos
-   /*  const dataPromise = new Promise((resolve, reject) => {
-        setTimeout(() => {
-            fetch(`../data/${props.dataSrc}.json`)
-                .then( // si se encontro el json
-                    (resp) => {
-                        if(resp.ok) {
-                            debugger;
-                            resp.then(function(dataJson) {
-                                debugger;
-                                resolve(dataJson); //resuelvo la promesa enviando los datos levantados con el fetch
-                              });
-                        }
-                    }
-                ).catch( // si no se encontro el json
-                    (error) => {
-                        reject(error); // Rechaza la prom pq no se encontro el archivo
-                    }
-                )
-        }, 2000); // espera 2segs simulando el tiempo de respuesta del servidor
+  useEffect(() => {
+    const getData = new Promise((res) => {
+      setTimeout(() => {
+        res(inmuebles);
+      }, 3000);
     });
-    dataPromise.then(//aca llamo a ala promesa
-         (responseResolve) => { // resolve y te da en el param response el array
-             setData(responseResolve);//le asigno a data el arreglo levantado del json 
-         },
-         (responseReject) => { // reject y responde el mensaje de error
-             alert(`Se produjo un error al obtener los datos. Mensaje del error: ${responseReject}`);
-         }); */
+    if (categoriaId) {
+      getData.then((res) =>
+        setData(res.filter((inmueble) => inmueble.category === categoriaId))
+      );
+    } else {
+      getData.then((res) => setData(res));
+    }
+  }, [categoriaId]);
 
-    return(
-        <>
-            <h2>{props.greeting}</h2>
-            <span>los datos se van a traer de : {props.dataSrc}</span>
-            <ItemList list={data} />
-        </>
-    );
-}
+  return (
+    <>
+      <h2>{ greeting }</h2>
+      <ItemList list={data} />
+    </>
+  );
+};
 
 export default ItemListContainer;
