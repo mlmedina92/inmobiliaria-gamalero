@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../scss/whatsapp.scss';
 
 const Whatsapp = () => {
   return (
