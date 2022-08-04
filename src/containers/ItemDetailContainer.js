@@ -3,7 +3,7 @@ import ItemDetail from "../components/ItemDetail";
 import { useParams } from "react-router-dom";
 
 const inmuebles = [
-  {
+    {
     id: 1,
     img: "http://gpi-blog.s3.amazonaws.com/wp-content/uploads/2014/03/casa.jpg",
     category: "casas",
