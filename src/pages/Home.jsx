@@ -21,8 +21,8 @@ const Home = () => {
     // ];
 
     return (
-        <div className="">
-            <section id="inicio">
+        <div>
+            <section className="mb-5" id="inicio">
 
 
             {/* <Slider */}
@@ -31,7 +31,7 @@ const Home = () => {
                 */}
             </section>
             
-            <section id='oportunidades'>
+            <section id='oportunidades' className="mb-5 container-fluid">
                 {/* llamo al componente ItemListContainer y le paso parametros que luego se leen como props.greeting y props.dataSrc.  */}
                 <ItemListContainer
                     greeting="Nuestras oportunidades"

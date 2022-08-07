@@ -14,12 +14,15 @@ const NavBar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg bg-light bg-opacity-50">
-      <div className= "container-fluid">
+      <div className= "container">
         <NavLink className="navbar-brand" to="/">
           <img src={logo} alt="Gamalero Inmoboliaria" width="209" height="60"/>
         </NavLink>
+        {/* menu mobile */}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation"><FontAwesomeIcon icon ={faBars}/></button>
-        <div className="collapse navbar-collapse text-uppercase" id="navbarId">
+        {/* Links menú pcipal */}
+
+        <div className="collapse navbar-collapse justify-content-end text-uppercase" id="navbarId">
           <ul className="navbar-nav ms-auto text-start">
             <li className="nav-item">
               <NavLink className={navLinkClassName} activeclassname={navLinkClassNameActive} to='/'>Inicio</NavLink>

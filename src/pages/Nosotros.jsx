@@ -22,11 +22,11 @@ const Nosotros = () => {
               <p>Diez años de experiencia avalan nuestro trabajo.</p>
             </div>
             <div className="col-12 col-md-6">
-              <img className="w-100" src={portada} alt="Local de Nimax" />
+              <img className="w-100" src={portada} alt="Local de gamalero" />
             </div>
           </div>
           <div className="row d-flex align-items-center">
-            <Equipo />
+            <Equipo className="mb-3" />
           </div>
         </div> 
       </section>
