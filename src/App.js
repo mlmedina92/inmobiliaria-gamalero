@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <header className="fixed-top">
+        <header className="sticky-top">
           <NavBar />
         </header>
         <main>

@@ -1,42 +1,17 @@
 import React, { useEffect, useState } from "react";
+import {getFirestore , doc, getDoc} from 'firebase/firestore';
 import ItemDetail from "../components/ItemDetail";
 import { useParams } from "react-router-dom";
-
-const inmuebles = [
-    {
-    id: 1,
-    img: "http://gpi-blog.s3.amazonaws.com/wp-content/uploads/2014/03/casa.jpg",
-    category: "casas",
-    title: "casa",
-  },
-  {
-    id: 2,
-    img: "https://i.pinimg.com/originals/48/74/ab/4874ab26bb66155535855421184a5247.jpg",
-    category: "depto-1a",
-    title: "depto1",
-  },
-  {
-    id: 3,
-    img: "http://gpi-blog.s3.amazonaws.com/wp-content/uploads/2014/03/casa.jpg",
-    category: "casas",
-    title: "casa",
-  },
-];
 
 const ItemDetailContainer = ({ greeting }) => {
   const [data, setData] = useState({});
   const { detalleId } = useParams();
 
   useEffect(() => {
-    const getData = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(inmuebles);
-      }, 3000);
-    });
-
-    getData.then((res) =>
-      setData(res.find((inmueble) => inmueble.id === parseInt(detalleId)))
-    );
+    const querydb = getFirestore();
+    const queryDoc = doc(querydb, 'propiedades', detalleId);
+    getDoc(queryDoc)
+      .then(res => setData({id: res.id, ...res.data()}))
   }, [detalleId]);
 
   return (

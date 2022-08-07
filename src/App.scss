@@ -9,7 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   font-size: 14px;
   line-height: 1.2;
@@ -19,15 +18,16 @@ body {
 }
 
 a {
-  color: grey;
+  color:#262424;
   transition: all 300ms;
   &:hover {
-    color: grayscale($color: purple);
+    color: grayscale($color:grey);
   }
 }
 
 footer {
-  background-color: orange;
+  background-color:#f2b749
+  ;
 }
 
 
