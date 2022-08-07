@@ -6,10 +6,10 @@ import FooterLinks from "./components/FooterLinks";
 import React from "react";
 import Nosotros from "./pages/Nosotros";
 import Contacto from "./pages/Contacto";
-import Copi from "./components/Copi";
-import Whatsapp from "./components/Whatsap";
+import Whatsapp from "./components/Whatsapp";
 import ItemListContainer from "./containers/ItemListContainer";
 import ItemDetailContainer from "./containers/ItemDetailContainer";
+import Copyright from "./components/Copyright";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
         <footer>
           <FooterLinks />
         </footer>
-        <Copi />
+        <Copyright />
         <Whatsapp />
       </BrowserRouter>
     </>
