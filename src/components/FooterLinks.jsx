@@ -18,7 +18,7 @@ const FooterLinks = () => {
             </NavLink>
           </div>
           <div className="col-12 col-md-3 mb-3">
-            <ul className="list-unstyled">
+            <ul className="º">
               <li className="pb-2">
                 <NavLink className="text-decoration-none" to="/">
                   Inicio

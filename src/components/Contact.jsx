@@ -27,9 +27,9 @@ export default function Contact() {
   return (
     <>
       <section className="container mb-5">
-        <h2 class="mb-3">Contacto</h2>
+        <h2 className="mb-3">Contacto</h2>
         <div className="row">
-          <div class="col-12 col-sm-6 mb-3 mb-md-0">
+          <div className="col-12 col-sm-6 mb-3 mb-md-0">
             <form onSubmit={handleSubmit(onSubmit)}>
               <fieldset>
                 <legend className="fs-6 mb-3">
@@ -113,9 +113,9 @@ export default function Contact() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.728712483118!2d-59.12734248509393!3d-37.32525331401972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911feb12d6f2a7%3A0x7c7782182607d86f!2sBelgrano%201271%2C%20B7001%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1659908266511!5m2!1ses-419!2sar" 
             height="450"
             // style="border:0;"
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
             title="mapa"
           ></iframe>
         </div>

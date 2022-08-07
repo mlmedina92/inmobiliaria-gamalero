@@ -3,9 +3,9 @@ import Contact from '../components/Contact';
 
 const Contacto = () => {
   return (
-    <div id="contacto" className="container mb-5">
+    <section id="contacto" className="container mb-5">
       <Contact/>
-    </div>
+    </section>
   )
 }
 

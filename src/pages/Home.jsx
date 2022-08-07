@@ -1,7 +1,7 @@
-// import portada from '../img/portada.jpg';
 import ItemListContainer from '../containers/ItemListContainer';
 // import Slider from '../components/Slider';
 import React from 'react';
+import Servicios from './Servicios';
 
 const Home = () => {
 
@@ -37,6 +37,7 @@ const Home = () => {
                     greeting="Nuestras oportunidades"
                     dataSrc="oportunidades"/>
             </section>
+            <Servicios />
         </div>
     );
 }
