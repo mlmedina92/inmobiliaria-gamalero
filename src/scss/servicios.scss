@@ -1,6 +1,25 @@
 .servicios {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../img/portada.jpg);
-    background-size: cover;
-      background-position: center center;
-      height: 100vh;
+  background: linear-gradient(rgba(132, 105, 11, 0.7), rgba(0, 0, 0, 0.5)), url(../img/llave.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  height: 100vh;
+    
+  }
+
+  .nuestrosServicios{
+    font-size: 30px;
+		letter-spacing: 5px;
+    color:#fff;
+    font-weight: bold;
+  }
+
+  .ss{
+    font-size: 20px;
+		letter-spacing: 5px;
+    color:#fff;
+    font-weight: bold;
+
   }

@@ -22,7 +22,7 @@ const Home = () => {
 
     return (
         <div>
-            <section className="mb-5" id="inicio">
+            <section className="mb-5 inicio">
 
 
             {/* <Slider */}
@@ -37,7 +37,9 @@ const Home = () => {
                     greeting="Nuestras oportunidades"
                     dataSrc="oportunidades"/>
             </section>
-            <Servicios />
+            <section className= "servicios mb-5 container-fuid">
+             <Servicios />
+            </section>
         </div>
     );
 }
