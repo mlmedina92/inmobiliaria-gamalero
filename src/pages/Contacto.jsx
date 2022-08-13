@@ -1,9 +1,11 @@
 import React from 'react';
 import Contact from '../components/Contact';
+import  '../scss/contacto.scss';
+
 
 const Contacto = () => {
   return (
-    <section id="contacto" className="container mb-5">
+    <section id="contacto" className=" contacto container mb-5 ">
       <Contact/>
     </section>
   )

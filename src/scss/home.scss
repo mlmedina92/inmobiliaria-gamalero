@@ -1,0 +1,27 @@
+.servicios {
+  background: linear-gradient(rgba(132, 105, 11, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../img/llave2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuestrosServicios {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 5px;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}

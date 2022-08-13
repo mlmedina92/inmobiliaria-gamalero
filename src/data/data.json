@@ -1,0 +1,489 @@
+[
+  {
+    "destacada": true,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa estrenar en venta - 2 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "Casa 1",
+    "id": 1,
+    "zona": "Fuente de los Vascos",
+    "detalles":"Cuenta con 2 dormitorios(1 principal con baño en suite), cocina, living, comedor, 2 baños, lavadero, patio verde garage cubierto con portón levadizo con posibilidad de cerrarse y convertirse en un tercer dormitorio. Detalles de construcción: Calefacción por radiadores, aberturas de DVH, grifería de primera calidad . Descripción: Única por su vista y calidad en constructivo.",
+    "precio": "USD$ 240.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa en venta - 3 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "VENTA- CASA - JHON LENNON",
+    "id": 2,
+    "zona": "Club Uncas",
+    "detalles": "Cuenta con 3 dormitorios(2 en planta alta), 2 baños (uno en planta alta), living/comedor, cocina separada, patio amplio con césped, garage cubierto.",
+    "precio": "USD$160.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa en venta - 3 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "VENTA-CASA PORTUGAL AL 900",
+    "id": 3,
+    "zona": "Terminal.",
+    "detalles": "Cuenta con 3 dormitorios, 2 baños, cocina separada, living/comedor, patio de cemento, terraza con quincho y parrilla, garage cubierto con portón, 165 metros cubiertos. Detalles de construcción: Calefacción por radiadores, aire acondicionado, grifería de primera. Construcción con posibilidad de colocar ascensor.",
+    "precio": "Consulte precio"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa en venta a estrenar - 3 dormitorios ",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "Casa Serrano",
+    "id": 4,
+    "zona": "Cerrito",
+    "detalles": "Cuenta con 3 dormitorios (uno en suite con vestidor y baño), living/comedor, cocina separada, 2 baños, patio verde amplio.Detalles de construcción: Piso de porcelanato, calefacción por radiadores, aberturas DVH, Grifería FV de primera. .",
+    "precio": "Consulte precio"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa en venta reciclada nueva - 2 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "santamarina y 25 de mayo",
+    "id": 5,
+    "zona": "Centro",
+    "detalles": "Cuenta con 2 dormitorios, living, cocina/comedor, baño completo, patio verde amplio, garage cubierto cerrado. Detalles de construcción:Piso de porcelanato, calefacción por radiadores, aberturas DVH, Grifería FV de primera.",
+    "precio": "USD$ 160.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa a estrenar - 3 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "cancha club gim.",
+    "id": 6,
+    "zona": "La merced y Vistalli.",
+    "detalles": "Cuenta con 3 dormitorios, living/comedor y cocina integrada, 1 baño completo, lavadero, patio verde amplio con posiblidad de construir una piscina . 160 m2 cubiertos. El lote cuenta con 770 m2 de terreno. Servicios de luz, agua y gas. Detalles de construcción: Calefacción por radiadores con caldera dual, grifería FV de primera, aberturas DVH. Descripción:muy buena calidad constructiva.",
+    "precio": "USD$ 175.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa en venta - 2 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "casa maipu 660.celina",
+    "id": 7,
+    "zona": "Centro",
+    "detalles": "Cuenta con 2 dormitorios(uno en suite con vestidor y baño), cocina-comedor, living, 3 baños, lavadero, patio verde amplio con piscina. Lote de 700 m2",
+    "precio": "USD$ 430.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa a estrenar - 5 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "hugo rios casa amplia roja",
+    "id": 8,
+    "zona": "Fuente de los Vascos",
+    "detalles": "Cuenta con 5 dormitorios, 3 baños, living/comedor, cocina, patio verde amplio con piscina. Detalles de construcción: Calefacción por radiadores, estilo rústico, aberturas DVH",
+    "precio": "Consulte precio"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa a estrenar en barrio privado - 3 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "https://www.instagram.com/p/B8B-O73JWS5/",
+    "id": 9,
+    "zona": "Av. Don Bosco",
+    "detalles": "Cuenta con 3 dormitorios(1 en suite con vestidor y baño), 3 baños, living con hogar, quincho con parrilla, gárage cubierto para 2 autos, sala de huéspedes con dormitorio y baño, piscina. Detalles de construcción: Excelente calidad de construcción, materiales y terminaciones. Descripción: Desde cualquier Punto de la propiedad se puede apreciar la hermosa vista a las sierras de Tandil. Excelente luminosidad y circulación",
+    "precio": "Consulte precio"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa a estrenar - 3 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "https://www.instagram.com/p/B3xe5yuJRi3/",
+    "id": 10,
+    "zona": "Calvario",
+    "detalles": "Cuenta con 3 dormitorios(uno en suite con vestidor y baño con hidromasaje), living amplio, cocina/comedor amplia, lavadero, escritorio, baño completo, quincho, pileta, cochera cubierta. Lote de 620 m2. m2 construidos: 424. Detalles de construcción: Portón automátizado, losa radiante, alarma, paredes dobles, cámaras de seguridad",
+    "precio": "USD$ 800.000. Se escuchan propuestas, permutas."
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa a estrenar - 3 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "https://www.instagram.com/p/B3xe5yuJRi3/",
+    "id": 11,
+    "zona": "Zona Dique",
+    "detalles": "Descripcion: Cuenta con 3 dormitorios(uno en suite con vestidor y baño con jacuzzi), living comedor con hogar, baño completo, cocina, gárage para 4 autos con portón levadizo, lavadero, depósito, patio verde, entrada vehicular. Lote 13 x 43. 250m2 construidos. Detalles de construcción:nAberturas DVH, calefacción por radiadores, portón levadizo .",
+    "precio": "USD$275.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa a estrenar - 4 dormitorios",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "casas",
+    "identificacion": "https://www.instagram.com/p/B8oyn_cJK4x/",
+    "id": 12,
+    "zona": "Uncas",
+    "detalles": "Cuenta con 4 dormitorios amplios, 4 baños, 2 cocinas, living amplio con hogar a leña, comedor, estacionamiento techado, terraza amplia, parque verde amplio. Descripción:Casco de estancia en la ciudad de Tandil, a solo 10 minutos del centro. Cuenta la historia que pasaron por esta casa 4 presidentes de la Nación Argentina, hay pruebas y un libro que habla de ella.",
+    "precio": "Valor USD$1.000.000 Se escuchan propuestas, permutas."
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta - Reciclado totalmente nuevo.",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-2a",
+    "Identificacion": "https://www.instagram.com/p/CgSjVKSt12y/",
+    "id": 13,
+    "zona": "Centro de la Ciudad. A pasos de importante plaza.",
+    "detalles": "Cuenta con 2 dormitorios, living/comedor, cocina separada, baño completo con receptáculo, patio verde.",
+    "precio": "USD$:75.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento a estrenar en venta - Reciclado totalmente nuevo.",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-2a",
+    "identificacion": "https://www.instagram.com/p/CgeX3Y8LsMH/",
+    "id": 14,
+    "zona": "Barrio Procrear",
+    "detalles": "Cuenta con 2 dormitorios, living/comedor, cocina, baño, cochera - Primer Piso - 64 m² . Detalles construcción:Aberturas DVH.",
+    "precio": "USD $30.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-2a",
+    "identificacion": "https://www.instagram.com/p/Ce3wTHOsOJU/",
+    "id": 15,
+    "zona": "Semicentro TANDIL",
+    "detalles": "Cuenta con 2 dormitorios, baño, cocina, living/comedor, amplio balcón, terraza con espacio para parrilla. 84m2 TOTAL . Una unidad para aprovechar, por su buen valor y estado.",
+    "precio": "USD$ 47.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta - estilo casa",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-2a",
+    "identificacion": "https://www.instagram.com/p/CedxLdbORs8/",
+    "id": 16,
+    "zona": "Av. Lunghi y Pizzorno.",
+    "detalles": "Cuenta con 2 domitorios, living/ comedor, cocina, baño, patio interno, lavadero. 87m2 TOTAL.",
+    "precio": "Consulte precio"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta luminoso y de buena calidad",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-1a",
+    "identificacion": "https://www.instagram.com/p/CfFcE3EI03Y/",
+    "id": 17,
+    "zona": "Terminal.",
+    "detalles": "Cuenta con 1 dormitorio, antebaño y baño completo, cocina/comedor y living todo integrado, balcón con lavadero. Detalles de construcción:Calefacción por radiadores con caldera dual, piso de porcelanato, aberturas DVH.",
+    "precio": "Consulte precio"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-1a",
+    "identificacion": "https://www.instagram.com/p/CHdbgxiJbeX/",
+    "id": 18,
+    "zona": "Calvario",
+    "detalles": "Cuenta con 1 dormitorio, living/comedor y cocina separado por una barra, antebaño y baño completo con bañera, 2 balcones(uno con lavadero), estacionamiento, parrilla compartida. Detalles de construcción: Doble vidrio de aberturas, piso de porcelanato, portón automático.",
+    "precio": "USD$ 45.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-1a",
+    "identificacion": "https://www.instagram.com/p/CGK5NRUJKME/",
+    "id": 19,
+    "zona": "Av. actis.",
+    "detalles": "Cuenta con 1 dormitorio, living/cocina comedor integrada, balcón con lavadero, baño completo con duchador, espacio de estacionamiento. Detalles de construcción: Aberturas DVH.",
+    "precio": "USD$ 45.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-1a",
+    "identificacion": "https://www.instagram.com/p/B_336jUptvp/",
+    "id": 20,
+    "zona": "Ferrocarril .",
+    "detalles": "Cuenta con 1 dormitorio, living/comedor, cocina semiseparada, estacionamiento, baño completo . Detalles de construcción: aberturas DVH, portón automático, ventanales amplios.",
+    "precio": "USD$ 70.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta. Inmejorable ubicación",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-1a",
+    "identificacion": "https://www.instagram.com/p/CeOkqSfueCF/",
+    "id": 21,
+    "zona": "Centro",
+    "detalles": "Cuenta con 1 dormitorio, living/comedor, cocina separada, baño completo con bañera, balcón a la calle con vista a importante plaza, segundo balcón con lavadero y espacio para parrilla. 76m2 TOTAL. Detalles de construcción: Aberturas DVH,alarma,aire acondicionado.",
+    "precio": "USD$ 83.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta. Una construcción única en Tandil.",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-1a",
+    "identificacion": "https://www.instagram.com/p/CdvoiPvgVQD/",
+    "id": 22,
+    "zona": "Semicentro",
+    "detalles": "Cuenta con 1 dormitorio, cocina semiseparada, baño completo, living/comedor, terraza con vista 360° a toda la ciudad, parrillas, estacionamiento individual con entrada directa a la unidad. Detalles de construcción: Muebles de alta calidad, aberturas con doble vidrio, puertas pentágono de máxima seguridad. Descripción:Duplex a la venta. Aires de Nueva York en nuestra ciudad.",
+    "precio": "Consulte precio"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta. Oportunidad única para aprovechar",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-1a",
+    "identificacion": "https://www.instagram.com/p/CbyGiPasjbK/",
+    "id": 23,
+    "zona": "Pleno centro de Tandil",
+    "detalles": "La propiedad cuenta con 1 dormitorio, living/comedor,cocina Integrada, baño completo, estacionamiento en común.",
+    "precio": "USD$40.900"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Departamento en venta 2 años de antigüedad",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "depto-1a",
+    "identificacion": "https://www.instagram.com/p/CC4wEV0JIpJ/",
+    "id": 24,
+    "zona": "Estación.",
+    "detalles": "La propiedad cuenta con 1 dormitorio, cocina/comedor, baño, patio chico, estacionamiento.",
+    "precio": "Consulte precio"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Galpón en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "galpones",
+    "id": 25,
+    "identificacion": "Almafuerte y Ruta 30",
+    "zona": "Parque Industrial",
+    "detalles": "lote de 18 x 47 m2 con luz y agua, galpón de 12 x 30 con,oficina y baño.",
+    "precio": "USD$ 60.000"
+  },
+  {
+    "destacada": false,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Hotel en venta. Propiedad a reciclar",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "hoteles",
+    "id": 26,
+    "zona": "Centro",
+    "detalles": "Cuenta con 40 habitaciones,22 cocheras, ascensor.",
+    "precio": "USD$ 1.200.000"
+  },
+  {
+    "destacada": true,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Local en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "locales",
+    "Identificacion": "san matin 730",
+    "id": 27,
+    "zona": "Centro",
+    "detalles": "20 m2 cubiertos con baño. Local en pleno centro de la ciudad.",
+    "precio": "USD$ 35.000"
+  },
+  {
+    "destacada": true,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Lote en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "lotes",
+    "identificación": "balvin 1200",
+    "id": 28,
+    "zona": "Semicentro",
+    "detalles": "18,56 x 129,9. Cuenta con todos los servicios. Se pueden construir 48 departamentos. Ideal para constructores.",
+    "precio": "USD$ 270.000"
+  },
+  {
+    "destacada": true,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Lote en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "lotes",
+    "identificación": "jose hernandez350",
+    "id": 29,
+    "zona": "Cerrito",
+    "detalles": "10 x 64,95. Cuenta con todos los servicios.",
+    "precio": "USD$ 140.000"
+  },
+  {
+    "destacada": true,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Lote en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "lotes",
+    "identificación": "linstown",
+    "id": 30,
+    "zona": "Zona Golf",
+    "detalles": "1000 m2. Cuenta con todos los servicios.",
+    "precio": "USD$ 120.000"
+  },
+  {
+    "destacada": true,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Lote en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "lotes",
+    "identificación": "rivas y piedra buena",
+    "id": 31,
+    "zona": "Casino",
+    "detalles": "13.15 x 18.75 m2. Cuenta con todos los servicios. Planos aprobados para construir 2 casas de 2 domitorios o una casa de 4 dormitorios.",
+    "precio": "USD$ 70.000"
+  },
+  {
+    "categori": "lotes",
+    "identificación": "pugliese y aristegui",
+    "id": 32,
+    "zona": "Golf.",
+    "detalles": "18 x44 m2. Cuenta con planos aprobados para hacer una casa de 3 dormitorios.",
+    "precio": "USD$ 85.000"
+  },
+  {
+    "destacada": true,
+    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "titulo": "Casa quinta en venta",
+    "imagenes": [
+      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    ],
+    "categoria": "quintas",
+    "identificación": "Pascussi y Lendes",
+    "id": 33,
+    "zona": "Cerro Leones",
+    "descripcion": "Cuenta con dos dormitorios, living/comedor, cocina separada, baño, piscina, parrilla. Lote de 16 x 25m2 . 100 m2 construidos.",
+    "precio": "USD$140.000"
+  }
+]

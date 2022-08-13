@@ -6,7 +6,6 @@ import './scss/custom.scss';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './index.css';
 import App from './App';
-import './firebase/config';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

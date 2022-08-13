@@ -1,55 +1,31 @@
 import React from "react";
-import logo from "../img/logo.png";
-
+import Juan from "../img/juan.png";
 const Equipo = () => {
   return (
-    <div className="card-group mb-4 px-1 row row-cols-2 row-cols-md-3 row-cols-lg-4">
-      <div className="col p-2 m-0">
-        <div className="card">
-          <img src={logo} width="200" className="card-img-top" alt="..." />
+    <div className="card my-3">
+      <div className="row g-0">
+        <div className="col-md-4">
+          <img src={Juan} className="img-fluid rounded-start" alt="Gamalero" />
+        </div>
+        <div className="col-md-8">
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">
+              Juan Pablo Gamalero - Martillero y Corredor Público.
+            </h5>
+            <p className="card-text"></p>
             <p className="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">
+                Juan Pablo Gamalero ha cursado sus estudios en el Colegio San
+                José, desde el nivel inicial hasta el nivel polimodal
+                graduándose como Bachiller Modalidad Humanidades y Ciencias
+                Sociales. Posteriormente se graduó como Martillero y Corredor
+                Publico en la Facultad de Ciencias Jurídicas y Sociales de la
+                Universidad FASTA.
+              </small>
             </p>
           </div>
         </div>
       </div>
-      <div className="col p-2 m-0">
-        <div className="card">
-          <img src={logo} width="200" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col p-2 m-0">
-        <div className="card">
-          <img src={logo} width="200" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-      </div>
-  
     </div>
   );
 };

@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color:#262424;
+  color:#fff;
   transition: all 300ms;
   &:hover {
     color: grayscale($color:grey);
@@ -32,8 +32,9 @@ h2{
 }
 
 footer {
-  background-color:#f2b749;
+  background-color:#262424;
 }
+
 
 
   

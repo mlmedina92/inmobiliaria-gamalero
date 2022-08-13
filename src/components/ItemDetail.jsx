@@ -4,7 +4,7 @@ const ItemDetail = ({ detail }) => {
   return (
     <div className="card border rounded">
       <div className="row g-0">
-        <div className="col-md-4">
+        <div className="col-md-6">
           <div
             id="carouselExampleControls"
             className="carousel slide"
@@ -54,15 +54,14 @@ const ItemDetail = ({ detail }) => {
             </button>
           </div>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-6">
           <div className="card-body">
-            {/* <h4>{detail.brand.name}</h4> */}
-            <h3 className="card-title">{detail.zona}</h3>
-            {/* <p className='card-text'>{detail.description}</p> */}
-            {/* <p className="card-text d-flex justify-content-between">
-              <span>Stock: {detail.stock}</span>
-              <span>${detail.cost}</span>
-            </p> */}
+            <h3 className="card-title">{detail.titulo}</h3>
+            <p className="card-text">Detalles: {detail.detalles}</p>
+            <p className="card-text d-flex justify-content-between">
+              <strong>Zona: {detail.zona}</strong>
+              <strong>{detail.precio}</strong>
+            </p>
           </div>
         </div>
       </div>

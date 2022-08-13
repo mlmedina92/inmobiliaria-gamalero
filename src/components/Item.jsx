@@ -2,13 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Item = ({ item }) => {
+
+
   return (
     <div className="card border rounded">
-      <img className="card-img-top" src={item.imagenes[0]} alt={item.zona} />
+      <img className="card-img-top" src={item.portada} alt={item.titulo} />
       <div className="card-body">
-        <h3 className="card-title">{item.zona}</h3>
+        <h3 className="card-title">{item.titulo}</h3>
         <p className="card-text d-flex justify-content-between">
-          <span>${item.precio}</span>
+          <span>{item.precio}</span>
         </p>
       </div>
       <div className="card-footer p-3">

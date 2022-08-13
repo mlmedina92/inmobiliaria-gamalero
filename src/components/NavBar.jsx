@@ -13,13 +13,13 @@ const NavBar = () => {
 
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light bg-opacity-50">
+    <nav className="navbar navbar-expand-lg bg-light bg-opacity-75">
       <div className= "container">
         <NavLink className="navbar-brand" to="/">
           <img src={logo} alt="Gamalero Inmoboliaria" width="209" height="60"/>
         </NavLink>
         {/* menu mobile */}
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation"><FontAwesomeIcon icon ={faBars}/></button>
+        <button className="navbar-toggler bg-light bg-opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation"><FontAwesomeIcon icon ={faBars}/></button>
         {/* Links menú pcipal */}
 
         <div className="collapse navbar-collapse justify-content-end text-uppercase" id="navbarId">
@@ -40,6 +40,7 @@ const NavBar = () => {
                 <li><NavLink className="dropdown-item" to='/venta/quintas'>Quintas</NavLink></li>
                 <li><NavLink className="dropdown-item" to='/venta/hoteles'>Hoteles</NavLink></li>
                 <li><NavLink className="dropdown-item" to='/venta/locales'>Locales</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/galpones'>Galpones</NavLink></li>
               </ul>
             </li>
             <li className="nav-item">

@@ -26,7 +26,7 @@ export default function Contact() {
 
   return (
     <>
-      <section className="container mb-5">
+      <section className="container-fluid py-5">
         <h2 className="mb-3">Contacto</h2>
         <div className="row">
           <div className="col-12 col-sm-6 mb-3 mb-md-0">
@@ -38,7 +38,7 @@ export default function Contact() {
                 </legend>
 
                 <div className="formInput mb-3">
-                  <label>Name</label>
+                  <label>Nombre</label>
                   <input
                     {...register("firstName", {
                       required: "This is required",
@@ -66,7 +66,7 @@ export default function Contact() {
                 </div>
 
                 <div className="formInput mb-3">
-                  <label>Age</label>
+                  <label>Teléfono</label>
                   <input
                     type="number"
                     {...register("age", {
