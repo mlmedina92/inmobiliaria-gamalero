@@ -7,18 +7,18 @@ const FooterLinks = () => {
     <div className="pt-4 px-20 py-4">
       <div className="container">
         <div className="row">
-          <div className="d-none d-sm-block col-12 col-md-2 col-1">
+          <div className="d-none d-sm-block col-12 col-md-3">
             <NavLink className="text-decoration-none" to="/">
               <img
                 src={logo}
-                alt="Gamalero Inmoboliaria"
-                width="60"
-                height="48"
+                alt="Gamalero Inmobiliaria"
+                width="100"
+                height="30"
               />
             </NavLink>
           </div>
           <div className="col-12 col-md-3 mb-3">
-            <ul className="º">
+            <ul className="list-unstyled">
               <li className="pb-2">
                 <NavLink className="text-decoration-none" to="/">
                   Inicio
@@ -36,9 +36,9 @@ const FooterLinks = () => {
               </li>
             </ul>
           </div>
-          <div className="col-12 col-md-4 mb-3">
+          <div className="col-12 col-md-3 mb-3">
             <ul className="list-unstyled">
-              <li className="mb-3">
+              <li className="mb-2">
                 <a
                   className="text-decoration-none"
                   href="tel:2494287779"
@@ -46,11 +46,11 @@ const FooterLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-telephone-fill"></i> Administracion.
-                  Llamanos
+                  <i className="bi bi-telephone-fill"></i><strong>   Administración.</strong>
+                  Llamada
                 </a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a
                   className="text-decoration-none"
                   href="tel:2494460909"
@@ -58,11 +58,11 @@ const FooterLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-telephone-fill"></i> ventas . llamada :
+                  <i className="bi bi-telephone-fill"></i><strong>   Ventas.</strong> Llamada :
                   2494460909
                 </a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a
                   className="text-decoration-none"
                   href="https://wa.me/2494328146"
@@ -70,18 +70,18 @@ const FooterLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-whatsapp"></i> ventas . whatsapp
+                  <i className="bi bi-whatsapp"></i><strong>   Ventas.</strong>WhatsApp
                   2494328146
                 </a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a
                   className="text-decoration-none"
                   href="https://goo.gl/maps/xDRhASVev4MzqwPs5"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-geo-alt-fill"></i> Belgrano 1271
+                  <i className="bi bi-geo-alt-fill"></i><strong>   Belgrano 1271</strong>
                   <br />
                   Tandil (7000), Buenos Aires, Arg.
                 </a>
