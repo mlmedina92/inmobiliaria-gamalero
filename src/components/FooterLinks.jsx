@@ -46,7 +46,7 @@ const FooterLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-telephone-fill"></i><strong>   Administración.</strong>
+                  <i className="bi bi-telephone-fill"></i><strong>   Administración. </strong>
                   Llamada
                 </a>
               </li>
@@ -70,7 +70,7 @@ const FooterLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-whatsapp"></i><strong>   Ventas.</strong>WhatsApp
+                  <i className="bi bi-whatsapp"></i><strong>   Ventas.</strong> WhatsApp
                   2494328146
                 </a>
               </li>

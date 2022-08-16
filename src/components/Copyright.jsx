@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/copyrght.scss";
+import "../scss/copyright.scss";
 
 const Copyright = () => {
   return (
