@@ -8,7 +8,6 @@ const ItemList = ({ list }) => {
         {list.map((item, index) => {
         return (
             <div className="col p-2 m-0" key={index}>
-                {/* por c/ objeto literal item del arreglo se crea un compomnente Item y se le pasa por props el objeto entero  */}
                 <Item
                     item={item}
                 />
@@ -17,5 +16,6 @@ const ItemList = ({ list }) => {
         })}
     </div>  )
 }
+// {/* por c/ objeto literal item del arreglo se crea un compomnente Item y se le pasa por props el objeto entero  */}
 
 export default ItemList

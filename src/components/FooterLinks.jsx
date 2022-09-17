@@ -14,6 +14,7 @@ const FooterLinks = () => {
                 alt="Gamalero Inmobiliaria"
                 width="100"
                 height="30"
+                loading="lazy"
               />
             </NavLink>
           </div>

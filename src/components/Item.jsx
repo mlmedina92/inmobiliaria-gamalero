@@ -6,7 +6,7 @@ const Item = ({ item }) => {
 
   return (
     <div className="card border rounded">
-      <img className="card-img-top" src={item.portada} alt={item.titulo} />
+      <img className="card-img-top img-fluid" src={item.portada} alt={item.titulo} loading="lazy"/>
       <div className="card-body">
         <h3 className="card-title">{item.titulo}</h3>
         <p className="card-text d-flex justify-content-between">

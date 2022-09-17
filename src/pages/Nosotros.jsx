@@ -22,7 +22,7 @@ const Nosotros = () => {
             </p>
           </div>
           <div className="col-12 col-md-6">
-            <img className="w-100" src={portada} alt="Local de gamalero" />
+            <img className="w-100" src={portada} alt="Local de gamalero" loading="lazy" />
           </div>
         </div>
       </section>
@@ -30,7 +30,7 @@ const Nosotros = () => {
       <section id="juan" className="container-fluid py-5">
         <div className="row d-flex align-items-center">
           <div className="col-12 col-md-6">
-            <img className="w-100" src={Juan} alt="Local de gamalero" />
+            <img className="w-100" src={Juan} alt="Local de gamalero" loading="lazy"/>
           </div>
           <div className="col-12 col-md-6 mb-3 mb-md-0">
             <h2 className="mb-3">

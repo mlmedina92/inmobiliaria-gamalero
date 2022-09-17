@@ -1,6 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 
 const ItemDetail = ({ detail }) => {
+  let history = useNavigate();// Hooks para manejar historial de navegacion
+
   return (
     <div className="card border rounded">
       <div className="row g-0">
@@ -16,13 +20,14 @@ const ItemDetail = ({ detail }) => {
                   <div
                     key={index}
                     className={
-                      index === 0 ? "active carousel-item" : "carousel-item"
+                      index == 0 ? "active carousel-item" : "carousel-item"
                     }
                   >
                     <img
                       src={imagen}
-                      className="d-block w-100"
+                      className="d-block w-100 "
                       alt={detail.zona}
+                      loading="lazy"
                     />
                   </div>
                 );
@@ -61,6 +66,9 @@ const ItemDetail = ({ detail }) => {
             <p className="card-text d-flex justify-content-between">
               <strong>Zona: {detail.zona}</strong>
               <strong>{detail.precio}</strong>
+              <button onClick={() => history(-1)} className="rounded-pill btn btn-primary col-3">
+            Volver atrás
+          </button>
             </p>
           </div>
         </div>
