@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <>
       <section className="container mb-5">
-        <h2 className="mb-3">Contacto</h2>
+        <h1 className="my-3">Contacto</h1>
         <div className="row">
           <div className="col-12 col-sm-6 mb-3 mb-md-0">
             <form ref={form} onSubmit={formSubmit}>

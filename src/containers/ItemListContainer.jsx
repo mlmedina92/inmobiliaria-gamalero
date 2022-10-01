@@ -21,8 +21,10 @@ const ItemListContainer = ({ greeting }) => {
   } else {
     return (
     <>
-      <h2>{ greeting }</h2>
-      <ItemList list={data} />
+      <div className="container">
+        <h1 className="my-3">{ greeting }</h1>
+        <ItemList list={data} />
+      </div>
     </>
    );
   }

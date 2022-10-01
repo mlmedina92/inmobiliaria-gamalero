@@ -1,6 +1,6 @@
 [
   {
-    "destacada": true,
+    "destacada": false,
     "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO1/1.jpg",
     "titulo": "Casa estrenar en venta - 2 dormitorios",
     "imagenes": [
@@ -85,7 +85,7 @@
 
   
   {
-    "destacada": false,
+    "destacada": true,
     "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO5/1.jpg",
     "titulo": "Casa en venta reciclada nueva - 2 dormitorios",
     "imagenes": [
@@ -98,10 +98,10 @@
       "/inmobiliaria-gamalero/dataImgs/items/NUMERO5/8.jpeg"
     ],
     "categoria": "casas",
-    "identificacion": "casa-santamarinay25",
+    "identificacion": "",
     "id": 5,
     "zona": "Centro",
-    "detalles": "Se destaca por su reciclado a nueva en todos sus ambientes. Amplia y luminosa. Cuenta con 2 dormitorios, living, cocina/comedor, baño completo, patio verde amplio, garage cubierto cerrado. Detalles de construcción:Piso de porcelanato, calefacción por radiadores, aberturas DVH, Grifería FV de primera.",
+    "detalles": "Se destaca por su reciclado a nueva en todos sus ambientes. Amplia y luminosa. Cuenta con 2 dormitorios, living, cocina/comedor, baño completo, patio verde amplio, garage cubierto cerrado.",
     "precio": "USD$ 160.000"
   },
 
@@ -150,17 +150,19 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "portada":       "/inmobiliaria-gamalero/dataImgs/items/NUMERO8/1.jpg",
     "titulo": "Casa a estrenar - 5 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/logo.png",
-      "/inmobiliaria-gamalero/dataImgs/logo.png"
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO8/2.jpg",
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO8/3.jpg",
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO8/4.jpg"
+
     ],
     "categoria": "casas",
-    "identificacion": "hugo rios casa amplia roja",
+    "identificacion": "tacuari",
     "id": 8,
-    "zona": "Fuente de los Vascos",
-    "detalles": "Cuenta con 5 dormitorios, 3 baños, living/comedor, cocina, patio verde amplio con piscina. Detalles de construcción: Calefacción por radiadores, estilo rústico, aberturas DVH",
+    "zona": "Cerrito",
+    "detalles": "Cuenta con 2 dormitorios, 1 baño, living, cocina/comedor, lavadero techado, patio verde amplio. Garage quincho con parrilla, baño y departamente arriba del quincho con dos dormitorios y baño.",
     "precio": "Consulte precio"
   },
 
@@ -286,7 +288,7 @@
 
 
   {
-    "destacada": true,
+    "destacada": false,
     "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO15/1.jpg",
     "titulo": "Departamento en venta",
     "imagenes": [
@@ -322,7 +324,7 @@
 
   
   {
-    "destacada": false,
+    "destacada": true,
     "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO17/1.jpg",
     "titulo": "Departamento en venta luminoso y de buena calidad",
     "imagenes": [
@@ -340,7 +342,7 @@
 
 
   {
-    "destacada": true,
+    "destacada": false,
     "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO18/1.jpeg",
     "titulo": "Departamento en venta",
     "imagenes": [
@@ -383,11 +385,19 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "portada":     "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/1.jpeg", 
     "titulo": "Departamento en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/logo.png",
-      "/inmobiliaria-gamalero/dataImgs/logo.png"
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/2.jpeg", 
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/3.jpeg", 
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/4.jpeg", 
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/5.jpeg", 
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/6.jpeg", 
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/7.jpeg", 
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/8.jpeg", 
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/9.jpeg", 
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/10.jpeg" 
+
     ],
     "categoria": "depto-1a",
     "identificacion": "https://www.instagram.com/p/B_336jUptvp/",
@@ -476,11 +486,11 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO25/1.jpg",
     "titulo": "Galpón en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/logo.png",
-      "/inmobiliaria-gamalero/dataImgs/logo.png"
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO25/2.jpg",
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO25/3.jpg"
     ],
     "categoria": "galpones",
     "id": 25,
@@ -506,7 +516,7 @@
 
 
   {
-    "destacada": false,
+    "destacada": true,
     "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO27/1.jpeg",
     "titulo": "Local en venta",
     "imagenes": [
@@ -539,34 +549,38 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO29/1.jpg",
     "titulo": "Lote en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/logo.png",
-      "/inmobiliaria-gamalero/dataImgs/logo.png"
+    "/inmobiliaria-gamalero/dataImgs/items/NUMERO29/1.jpg"
+
     ],
     "categoria": "lotes",
     "identificación": "jose hernandez350",
     "id": 29,
     "zona": "Cerrito",
-    "detalles": "10 x 64,95. Cuenta con todos los servicios.",
-    "precio": "USD$ 140.000"
+    "detalles": "10 x 65. Cuenta con todos los servicios.",
+    "precio": "USD$ 135.000"
   },
+
+
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO30/1.jpeg",
     "titulo": "Lote en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/logo.png",
-      "/inmobiliaria-gamalero/dataImgs/logo.png"
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO30/1.jpeg"
+
     ],
     "categoria": "lotes",
-    "identificación": "linstown",
+    "identificación": "Ancavilu",
     "id": 30,
     "zona": "Zona Golf",
-    "detalles": "1000 m2. Cuenta con todos los servicios.",
-    "precio": "USD$ 120.000"
+    "detalles": "Lote irregular. 18 m de frente. 25 metros de fondo. 510 metros totales. 1000 m2. Cuenta con todos los servicios. Proyecto aprobado para casa de 188 metros cubiertos.",
+    "precio": "USD$ 110.000"
   },
+
+
   {
     "destacada": false,
     "portada":       "/inmobiliaria-gamalero/dataImgs/items/NUMERO31/1.png",
@@ -591,17 +605,17 @@
   },
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO33/1.jpg",
     "titulo": "Casa quinta en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/logo.png",
+      "/inmobiliaria-gamalero/dataImgs/items/NUMERO33/1.jpg",
       "/inmobiliaria-gamalero/dataImgs/logo.png"
     ],
     "categoria": "quintas",
-    "identificación": "Pascussi y Lendes",
+    "identificación": "Jujuy",
     "id": 33,
-    "zona": "Cerro Leones",
-    "descripcion": "Cuenta con dos dormitorios, living/comedor, cocina separada, baño, piscina, parrilla. Lote de 16 x 25m2 . 100 m2 construidos.",
-    "precio": "USD$140.000"
+    "zona": "La Elena",
+    "descripcion": "Casa quinta con 3 dormitorios, living/comedor, cocina, baño, lavadero y gran parque espacioso. A considerar las mejoras de arboleda y plantaciones.",
+    "precio": "USD$130.000"
   }
 ]

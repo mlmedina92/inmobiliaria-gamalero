@@ -1,14 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import '../scss/itemDetail.scss';
 
 
 const ItemDetail = ({ detail }) => {
   let history = useNavigate();// Hooks para manejar historial de navegacion
 
   return (
-    <div className="card border rounded">
+    <div className="container m-4">
       <div className="row g-0">
-        <div className="col-md-6">
+        <div className="col-md-7">
           <div
             id="carouselExampleControls"
             className="carousel slide"
@@ -20,12 +21,14 @@ const ItemDetail = ({ detail }) => {
                   <div
                     key={index}
                     className={
-                      index == 0 ? "active carousel-item" : "carousel-item"
+                      index == 0 ?
+                       "active carousel-item text-center" 
+                       : "carousel-item text-center"
                     }
                   >
                     <img
                       src={imagen}
-                      className="d-block w-100 "
+                      className="d-inline-block"
                       alt={detail.zona}
                       loading="lazy"
                     />
@@ -59,18 +62,16 @@ const ItemDetail = ({ detail }) => {
             </button>
           </div>
         </div>
-        <div className="col-md-6">
-          <div className="card-body">
-            <h3 className="card-title">{detail.titulo}</h3>
-            <p className="card-text">Detalles: {detail.detalles}</p>
-            <p className="card-text d-flex justify-content-between">
-              <strong>Zona: {detail.zona}</strong>
-              <strong>{detail.precio}</strong>
-              <button onClick={() => history(-1)} className="rounded-pill btn btn-primary col-3">
+        <div className="col-md-5 ps-md-3">
+          <h1>{detail.titulo}</h1>
+          <p>Detalles: {detail.detalles}</p>
+          <p className="d-flex justify-content-between">
+            <strong>Zona: {detail.zona}</strong>
+            <strong>{detail.precio}</strong>
+          </p>
+          <a href="#" onClick={() => history(-1)} className="text-primary">
             Volver atrás
-          </button>
-            </p>
-          </div>
+          </a>
         </div>
       </div>
     </div>
