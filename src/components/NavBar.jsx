@@ -1,9 +1,8 @@
 import '../scss/navbar.scss';
 import React from 'react';
-import {FontAwesomeIcon} from  '@fortawesome/react-fontawesome';
-import {faBars} from '@fortawesome/free-solid-svg-icons';
 import logo from '../img/logo.png';
 import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 // creo un componente de clase,lo extiendo a partir de react
 const NavBar = () => {
@@ -19,7 +18,7 @@ const NavBar = () => {
           <img src={logo} alt="Gamalero Inmoboliaria" width="209" height="60" loading="lazy"/>
         </NavLink>
         {/* menu mobile */}
-        <button className="navbar-toggler bg-light bg-opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation"><FontAwesomeIcon icon ={faBars}/></button>
+        <button className="navbar-toggler bg-light bg-opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation"><i className="bi bi-list"></i></button>
         {/* Links menú pcipal */}
 
         <div className="collapse navbar-collapse justify-content-end text-uppercase" id="navbarId">
@@ -28,7 +27,7 @@ const NavBar = () => {
               <NavLink className={navLinkClassName} activeclassname={navLinkClassNameActive} to='/'>Inicio</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className={navLinkClassName} activeclassname={navLinkClassNameActive} to="/#oportunidades">Oportunidades</NavLink>
+              <Link className={navLinkClassName} activeclassname={navLinkClassNameActive} to="/#oportunidades">Oportunidades</Link>
             </li>
             <li className="nav-item dropdown">
               <NavLink className="nav-link dropdown-toggle" to="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ventas</NavLink>

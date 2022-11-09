@@ -1,15 +1,15 @@
 [
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO1/1.jpg",
+    "portada": "/dataImgs/items/NUMERO1/1.jpg",
     "titulo": "Casa estrenar en venta - 2 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO1/1.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO1/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO1/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO1/4.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO1/5.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO1/6.jpg"
+      "/dataImgs/items/NUMERO1/1.jpg",
+      "/dataImgs/items/NUMERO1/2.jpg",
+      "/dataImgs/items/NUMERO1/3.jpg",
+      "/dataImgs/items/NUMERO1/4.jpg",
+      "/dataImgs/items/NUMERO1/5.jpg",
+      "/dataImgs/items/NUMERO1/6.jpg"
 
     ],
     "categoria": "casas",
@@ -23,13 +23,13 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO2/1.jpg",
+    "portada": "/dataImgs/items/NUMERO2/1.jpg",
     "titulo": "Casa en venta - 3 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO2/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO2/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO2/4.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO2/5.jpg"    ],
+      "/dataImgs/items/NUMERO2/2.jpg",
+      "/dataImgs/items/NUMERO2/3.jpg",
+      "/dataImgs/items/NUMERO2/4.jpg",
+      "/dataImgs/items/NUMERO2/5.jpg"    ],
     "categoria": "casas",
     "identificacion": "casa-lennon",
     "id": 2,
@@ -41,17 +41,17 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/1.jpg",
+    "portada": "/dataImgs/items/NUMERO3/1.jpg",
     "titulo": "Casa en venta - 3 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/4.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/5.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/6.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/7.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/8.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO3/9.jpg"
+      "/dataImgs/items/NUMERO3/2.jpg",
+      "/dataImgs/items/NUMERO3/3.jpg",
+      "/dataImgs/items/NUMERO3/4.jpg",
+      "/dataImgs/items/NUMERO3/5.jpg",
+      "/dataImgs/items/NUMERO3/6.jpg",
+      "/dataImgs/items/NUMERO3/7.jpg",
+      "/dataImgs/items/NUMERO3/8.jpg",
+      "/dataImgs/items/NUMERO3/9.jpg"
     ],
     "categoria": "casas",
     "identificacion": "portugal-900",
@@ -64,16 +64,16 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO4/1.jpg",
+    "portada": "/dataImgs/items/NUMERO4/1.jpg",
     "titulo": "Casa en venta a estrenar - 3 dormitorios ",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO4/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO4/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO4/4.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO4/5.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO4/6.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO4/7.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO4/8.jpg"
+      "/dataImgs/items/NUMERO4/2.jpg",
+      "/dataImgs/items/NUMERO4/3.jpg",
+      "/dataImgs/items/NUMERO4/4.jpg",
+      "/dataImgs/items/NUMERO4/5.jpg",
+      "/dataImgs/items/NUMERO4/6.jpg",
+      "/dataImgs/items/NUMERO4/7.jpg",
+      "/dataImgs/items/NUMERO4/8.jpg"
        ],
     "categoria": "casas",
     "identificacion": "casa-serrano",
@@ -86,16 +86,16 @@
   
   {
     "destacada": true,
-    "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO5/1.jpg",
+    "portada":"/dataImgs/items/NUMERO5/1.jpg",
     "titulo": "Casa en venta reciclada nueva - 2 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO5/2.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO5/3.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO5/4.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO5/5.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO5/6.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO5/7.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO5/8.jpeg"
+      "/dataImgs/items/NUMERO5/2.jpeg",
+      "/dataImgs/items/NUMERO5/3.jpeg",
+      "/dataImgs/items/NUMERO5/4.jpeg",
+      "/dataImgs/items/NUMERO5/5.jpeg",
+      "/dataImgs/items/NUMERO5/6.jpeg",
+      "/dataImgs/items/NUMERO5/7.jpeg",
+      "/dataImgs/items/NUMERO5/8.jpeg"
     ],
     "categoria": "casas",
     "identificacion": "",
@@ -108,15 +108,15 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO6/1.jpeg",
+    "portada": "/dataImgs/items/NUMERO6/1.jpeg",
     "titulo": "Casa a estrenar - 3 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO6/2.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO6/3.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO6/4.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO6/5.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO6/6.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO6/7.jpeg"
+      "/dataImgs/items/NUMERO6/2.jpeg",
+      "/dataImgs/items/NUMERO6/3.jpeg",
+      "/dataImgs/items/NUMERO6/4.jpeg",
+      "/dataImgs/items/NUMERO6/5.jpeg",
+      "/dataImgs/items/NUMERO6/6.jpeg",
+      "/dataImgs/items/NUMERO6/7.jpeg"
     ],
     "categoria": "casas",
     "identificacion": "cancha club gim.",
@@ -129,16 +129,16 @@
   
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO7/1.jpeg",
+    "portada": "/dataImgs/items/NUMERO7/1.jpeg",
     "titulo": "Casa en venta - 2 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO7/2.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO7/3.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO7/4.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO7/5.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO7/6.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO7/7.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO7/8.jpeg"
+      "/dataImgs/items/NUMERO7/2.jpeg",
+      "/dataImgs/items/NUMERO7/3.jpeg",
+      "/dataImgs/items/NUMERO7/4.jpeg",
+      "/dataImgs/items/NUMERO7/5.jpeg",
+      "/dataImgs/items/NUMERO7/6.jpeg",
+      "/dataImgs/items/NUMERO7/7.jpeg",
+      "/dataImgs/items/NUMERO7/8.jpeg"
     ],
     "categoria": "casas",
     "identificacion": "casa maipu 660.celina",
@@ -150,12 +150,12 @@
 
   {
     "destacada": false,
-    "portada":       "/inmobiliaria-gamalero/dataImgs/items/NUMERO8/1.jpg",
+    "portada":       "/dataImgs/items/NUMERO8/1.jpg",
     "titulo": "Casa a estrenar - 5 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO8/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO8/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO8/4.jpg"
+      "/dataImgs/items/NUMERO8/2.jpg",
+      "/dataImgs/items/NUMERO8/3.jpg",
+      "/dataImgs/items/NUMERO8/4.jpg"
 
     ],
     "categoria": "casas",
@@ -169,18 +169,18 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/1.jpeg",
+    "portada": "/dataImgs/items/NUMERO9/1.jpeg",
     "titulo": "Casa a estrenar en barrio privado - 3 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/2.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/3.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/4.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/5.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/6.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/7.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/8.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/9.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO9/10.jpeg"
+      "/dataImgs/items/NUMERO9/2.jpeg",
+      "/dataImgs/items/NUMERO9/3.jpeg",
+      "/dataImgs/items/NUMERO9/4.jpeg",
+      "/dataImgs/items/NUMERO9/5.jpeg",
+      "/dataImgs/items/NUMERO9/6.jpeg",
+      "/dataImgs/items/NUMERO9/7.jpeg",
+      "/dataImgs/items/NUMERO9/8.jpeg",
+      "/dataImgs/items/NUMERO9/9.jpeg",
+      "/dataImgs/items/NUMERO9/10.jpeg"
         ],
     "categoria": "casas",
     "identificacion": "https://www.instagram.com/p/B8B-O73JWS5/",
@@ -192,18 +192,18 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/2.jpg",
+    "portada": "/dataImgs/items/NUMERO10/2.jpg",
     "titulo": "Casa a estrenar - 3 dormitorios. Se escuchan propuestas, permutas.",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/4.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/5.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/6.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/7.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/8.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/9.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO10/10.jpg"
+      "/dataImgs/items/NUMERO10/2.jpg",
+      "/dataImgs/items/NUMERO10/3.jpg",
+      "/dataImgs/items/NUMERO10/4.jpg",
+      "/dataImgs/items/NUMERO10/5.jpg",
+      "/dataImgs/items/NUMERO10/6.jpg",
+      "/dataImgs/items/NUMERO10/7.jpg",
+      "/dataImgs/items/NUMERO10/8.jpg",
+      "/dataImgs/items/NUMERO10/9.jpg",
+      "/dataImgs/items/NUMERO10/10.jpg"
     ],
     "categoria": "casas",
     "identificacion": "https://www.instagram.com/p/B3xe5yuJRi3/",
@@ -215,13 +215,13 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO11/1.jpg",
+    "portada": "/dataImgs/items/NUMERO11/1.jpg",
     "titulo": "Casa a estrenar - 3 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO11/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO11/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO11/4.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO11/5.jpg"
+      "/dataImgs/items/NUMERO11/2.jpg",
+      "/dataImgs/items/NUMERO11/3.jpg",
+      "/dataImgs/items/NUMERO11/4.jpg",
+      "/dataImgs/items/NUMERO11/5.jpg"
     ],
     "categoria": "casas",
     "identificacion": "https://www.instagram.com/p/B3xe5yuJRi3/",
@@ -234,13 +234,13 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO12/1.jpeg",
+    "portada": "/dataImgs/items/NUMERO12/1.jpeg",
     "titulo": "Casa a estrenar - 4 dormitorios",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO12/2.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO12/3.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO12/4.jpeg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO12/5.jpeg"
+      "/dataImgs/items/NUMERO12/2.jpeg",
+      "/dataImgs/items/NUMERO12/3.jpeg",
+      "/dataImgs/items/NUMERO12/4.jpeg",
+      "/dataImgs/items/NUMERO12/5.jpeg"
     ],
     "categoria": "casas",
     "identificacion": "https://www.instagram.com/p/B8oyn_cJK4x/",
@@ -253,12 +253,12 @@
 
   {
     "destacada": true,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO13/1.jpg",
+    "portada": "/dataImgs/items/NUMERO13/1.jpg",
     "titulo": "Departamento en venta - Reciclado totalmente nuevo.",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO13/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO13/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO13/4.jpg"
+      "/dataImgs/items/NUMERO13/2.jpg",
+      "/dataImgs/items/NUMERO13/3.jpg",
+      "/dataImgs/items/NUMERO13/4.jpg"
       ],
     "categoria": "depto-2a",
     "Identificacion": "https://www.instagram.com/p/CgSjVKSt12y/",
@@ -271,12 +271,12 @@
   
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO14/1.jpg",
+    "portada": "/dataImgs/items/NUMERO14/1.jpg",
     "titulo": "Departamento a estrenar en venta - Reciclado totalmente nuevo.",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO14/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO14/3.jpg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO14/4.jpg"
+      "/dataImgs/items/NUMERO14/2.jpg",
+      "/dataImgs/items/NUMERO14/3.jpg", 
+      "/dataImgs/items/NUMERO14/4.jpg"
          ],
     "categoria": "depto-2a",
     "identificacion": "https://www.instagram.com/p/CgeX3Y8LsMH/",
@@ -289,11 +289,11 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO15/1.jpg",
+    "portada": "/dataImgs/items/NUMERO15/1.jpg",
     "titulo": "Departamento en venta",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO15/2.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO15/3.jpg"
+    "/dataImgs/items/NUMERO15/2.jpg",
+    "/dataImgs/items/NUMERO15/3.jpg"
     ],
     "categoria": "depto-2a",
     "identificacion": "https://www.instagram.com/p/Ce3wTHOsOJU/",
@@ -306,13 +306,13 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO16/1.jpg",
+    "portada": "/dataImgs/items/NUMERO16/1.jpg",
     "titulo": "Departamento en venta - estilo casa",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO16/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO16/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO16/4.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO16/5.jpg"
+      "/dataImgs/items/NUMERO16/2.jpg",
+      "/dataImgs/items/NUMERO16/3.jpg",
+      "/dataImgs/items/NUMERO16/4.jpg",
+      "/dataImgs/items/NUMERO16/5.jpg"
     ],
     "categoria": "depto-2a",
     "identificacion": "https://www.instagram.com/p/CedxLdbORs8/",
@@ -325,12 +325,12 @@
   
   {
     "destacada": true,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO17/1.jpg",
+    "portada": "/dataImgs/items/NUMERO17/1.jpg",
     "titulo": "Departamento en venta luminoso y de buena calidad",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO17/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO17/3.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO17/4.jpg"   
+      "/dataImgs/items/NUMERO17/2.jpg",
+      "/dataImgs/items/NUMERO17/3.jpg",
+      "/dataImgs/items/NUMERO17/4.jpg"   
      ],
     "categoria": "depto-1a",
     "identificacion": "https://www.instagram.com/p/CfFcE3EI03Y/",
@@ -343,16 +343,16 @@
 
   {
     "destacada": false,
-    "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO18/1.jpeg",
+    "portada":"/dataImgs/items/NUMERO18/1.jpeg",
     "titulo": "Departamento en venta",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO18/2.jpeg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO18/3.jpeg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO18/4.jpeg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO18/5.jpeg", 
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO18/6.jpeg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO18/7.jpeg", 
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO18/8.jpeg"
+    "/dataImgs/items/NUMERO18/2.jpeg",
+    "/dataImgs/items/NUMERO18/3.jpeg",
+    "/dataImgs/items/NUMERO18/4.jpeg",
+    "/dataImgs/items/NUMERO18/5.jpeg", 
+    "/dataImgs/items/NUMERO18/6.jpeg",
+    "/dataImgs/items/NUMERO18/7.jpeg", 
+    "/dataImgs/items/NUMERO18/8.jpeg"
   ],
     "categoria": "depto-1a",
     "identificacion": "https://www.instagram.com/p/CHdbgxiJbeX/",
@@ -365,13 +365,13 @@
 
   {
     "destacada": false,
-    "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO19/1.jpg",
+    "portada":"/dataImgs/items/NUMERO19/1.jpg",
     "titulo": "Departamento en venta",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO19/2.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO19/3.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO19/4.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO19/5.jpg"
+    "/dataImgs/items/NUMERO19/2.jpg",
+    "/dataImgs/items/NUMERO19/3.jpg",
+    "/dataImgs/items/NUMERO19/4.jpg",
+    "/dataImgs/items/NUMERO19/5.jpg"
 
     ],
     "categoria": "depto-1a",
@@ -385,18 +385,18 @@
 
   {
     "destacada": false,
-    "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO20/4.jpeg", 
+    "portada":"/dataImgs/items/NUMERO20/4.jpeg", 
     "titulo": "Departamento en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/2.jpeg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/3.jpeg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/1.jpeg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/5.jpeg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/6.jpeg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/7.jpeg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/8.jpeg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/9.jpeg", 
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO20/10.jpeg" 
+      "/dataImgs/items/NUMERO20/2.jpeg", 
+      "/dataImgs/items/NUMERO20/3.jpeg", 
+      "/dataImgs/items/NUMERO20/1.jpeg", 
+      "/dataImgs/items/NUMERO20/5.jpeg", 
+      "/dataImgs/items/NUMERO20/6.jpeg", 
+      "/dataImgs/items/NUMERO20/7.jpeg", 
+      "/dataImgs/items/NUMERO20/8.jpeg", 
+      "/dataImgs/items/NUMERO20/9.jpeg", 
+      "/dataImgs/items/NUMERO20/10.jpeg" 
 
     ],
     "categoria": "depto-1a",
@@ -410,15 +410,15 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO21/1.jpg",    "titulo": "Departamento en venta. Inmejorable ubicación",
+    "portada": "/dataImgs/items/NUMERO21/1.jpg",    "titulo": "Departamento en venta. Inmejorable ubicación",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO21/2.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO21/3.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO21/4.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO21/5.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO21/6.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO21/7.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO21/8.jpg"
+    "/dataImgs/items/NUMERO21/2.jpg",
+    "/dataImgs/items/NUMERO21/3.jpg",
+    "/dataImgs/items/NUMERO21/4.jpg",
+    "/dataImgs/items/NUMERO21/5.jpg",
+    "/dataImgs/items/NUMERO21/6.jpg",
+    "/dataImgs/items/NUMERO21/7.jpg",
+    "/dataImgs/items/NUMERO21/8.jpg"
 
     ],
     "categoria": "depto-1a",
@@ -432,14 +432,14 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO22/1.jpg",
+    "portada": "/dataImgs/items/NUMERO22/1.jpg",
     "titulo": "Departamento en venta. Una construcción única en Tandil.",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO22/2.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO22/3.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO22/4.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO22/5.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO22/6.jpg"
+    "/dataImgs/items/NUMERO22/2.jpg",
+    "/dataImgs/items/NUMERO22/3.jpg",
+    "/dataImgs/items/NUMERO22/4.jpg",
+    "/dataImgs/items/NUMERO22/5.jpg",
+    "/dataImgs/items/NUMERO22/6.jpg"
     ],
     "categoria": "depto-1a",
     "identificacion": "https://www.instagram.com/p/CdvoiPvgVQD/",
@@ -452,11 +452,11 @@
 
   {
     "destacada": false,
-    "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO23/1.jpg",
+    "portada":"/dataImgs/items/NUMERO23/1.jpg",
     "titulo": "Departamento en venta. Oportunidad única para aprovechar",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO23/2.jpg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO23/3.jpg"
+    "/dataImgs/items/NUMERO23/2.jpg",
+    "/dataImgs/items/NUMERO23/3.jpg"
     ],
     "categoria": "depto-1a",
     "identificacion": "https://www.instagram.com/p/CbyGiPasjbK/",
@@ -469,11 +469,11 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO24/1.jpg",
+    "portada": "/dataImgs/items/NUMERO24/1.jpg",
     "titulo": "Departamento en venta 2 años de antigüedad",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO24/2.jpeg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO24/3.jpeg"
+    "/dataImgs/items/NUMERO24/2.jpeg",
+    "/dataImgs/items/NUMERO24/3.jpeg"
     ],
     "categoria": "depto-1a",
     "identificacion": "https://www.instagram.com/p/CC4wEV0JIpJ/",
@@ -486,11 +486,11 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO25/1.jpg",
+    "portada": "/dataImgs/items/NUMERO25/1.jpg",
     "titulo": "Galpón en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO25/2.jpg",
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO25/3.jpg"
+      "/dataImgs/items/NUMERO25/2.jpg",
+      "/dataImgs/items/NUMERO25/3.jpg"
     ],
     "categoria": "galpones",
     "id": 25,
@@ -501,11 +501,11 @@
   },
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/logo.png",
+    "portada": "/dataImgs/logo.png",
     "titulo": "Hotel en venta. Propiedad a reciclar",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/logo.png",
-      "/inmobiliaria-gamalero/dataImgs/logo.png"
+      "/dataImgs/logo.png",
+      "/dataImgs/logo.png"
     ],
     "categoria": "hoteles",
     "id": 26,
@@ -517,11 +517,11 @@
 
   {
     "destacada": true,
-    "portada":"/inmobiliaria-gamalero/dataImgs/items/NUMERO27/1.jpeg",
+    "portada":"/dataImgs/items/NUMERO27/1.jpeg",
     "titulo": "Local en venta",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO27/2.jpeg",
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO27/3.jpeg"
+    "/dataImgs/items/NUMERO27/2.jpeg",
+    "/dataImgs/items/NUMERO27/3.jpeg"
     ],
     "categoria": "locales",
     "Identificacion": "san matin 730",
@@ -534,10 +534,10 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO28/1.png",
+    "portada": "/dataImgs/items/NUMERO28/1.png",
     "titulo": "Lote en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO28/1.png"
+      "/dataImgs/items/NUMERO28/1.png"
     ],
     "categoria": "lotes",
     "identificación": "balvin 1200",
@@ -549,10 +549,10 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO29/1.jpg",
+    "portada": "/dataImgs/items/NUMERO29/1.jpg",
     "titulo": "Lote en venta",
     "imagenes": [
-    "/inmobiliaria-gamalero/dataImgs/items/NUMERO29/1.jpg"
+    "/dataImgs/items/NUMERO29/1.jpg"
 
     ],
     "categoria": "lotes",
@@ -566,10 +566,10 @@
 
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO30/1.jpg",
+    "portada": "/dataImgs/items/NUMERO30/1.jpg",
     "titulo": "Lote en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO30/1.jpg"
+      "/dataImgs/items/NUMERO30/1.jpg"
 
     ],
     "categoria": "lotes",
@@ -583,10 +583,10 @@
 
   {
     "destacada": false,
-    "portada":       "/inmobiliaria-gamalero/dataImgs/items/NUMERO31/1.png",
+    "portada":       "/dataImgs/items/NUMERO31/1.png",
     "titulo": "Lote en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO31/1.png"
+      "/dataImgs/items/NUMERO31/1.png"
     ],
     "categoria": "lotes",
     "identificación": "rivas y piedra buena",
@@ -605,11 +605,11 @@
   },
   {
     "destacada": false,
-    "portada": "/inmobiliaria-gamalero/dataImgs/items/NUMERO33/1.jpg",
+    "portada": "/dataImgs/items/NUMERO33/1.jpg",
     "titulo": "Casa quinta en venta",
     "imagenes": [
-      "/inmobiliaria-gamalero/dataImgs/items/NUMERO33/1.jpg",
-      "/inmobiliaria-gamalero/dataImgs/logo.png"
+      "/dataImgs/items/NUMERO33/1.jpg",
+      "/dataImgs/logo.png"
     ],
     "categoria": "quintas",
     "identificación": "Jujuy",
