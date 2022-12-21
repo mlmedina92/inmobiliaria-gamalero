@@ -6,10 +6,12 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 // creo un componente de clase,lo extiendo a partir de react
 const NavBar = () => {
- //funcion para aplicar las clases nativas de react router dom para links activos
   const navLinkClassName = 'nav-link';
   const navLinkClassNameActive = 'nav-link active';
 
+ let handleCollapse =() =>{
+    document.getElementById("navbarDropdownMenuLink").click()
+   };
 
   return (
     <nav className="navbar navbar-expand-lg bg-light bg-opacity-75">
@@ -29,17 +31,17 @@ const NavBar = () => {
             <li className="nav-item">
               <Link className={navLinkClassName} activeclassname={navLinkClassNameActive} to="/#oportunidades">Oportunidades</Link>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown" id="navbarDropdownMenu">
               <NavLink className="nav-link dropdown-toggle" to="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ventas</NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><NavLink className="dropdown-item" to='/venta/depto-1a'>Deptos. 1 Dormitorio</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/venta/depto-2a'>Deptos. 2 Dormitorios</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/venta/casas'>Casas</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/venta/lotes'>Lotes</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/venta/quintas'>Quintas</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/venta/hoteles'>Hoteles</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/venta/locales'>Locales</NavLink></li>
-                <li><NavLink className="dropdown-item" to='/venta/galpones'>Galpones</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/depto-1a' onClick={handleCollapse}>Deptos. 1 Dormitorio</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/depto-2a' onClick={handleCollapse}>Deptos. 2 Dormitorios</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/casas' onClick={handleCollapse}>Casas</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/lotes' onClick={handleCollapse}>Lotes</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/quintas' onClick={handleCollapse}>Quintas</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/hoteles' onClick={handleCollapse}>Hoteles</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/locales' onClick={handleCollapse}>Locales</NavLink></li>
+                <li><NavLink className="dropdown-item" to='/venta/galpones'onClick={handleCollapse}>Galpones</NavLink></li>
               </ul>
             </li>
             <li className="nav-item">
