@@ -7,13 +7,13 @@ const FooterLinks = () => {
     <div className="pt-4 px-20 py-4">
       <div className="container">
         <div className="row">
-          <div className="d-none d-sm-block col-12 col-md-3">
+          <div className="d-none d-md-block col-12 col-md-3">
             <NavLink className="text-decoration-none" to="/">
               <img
                 src={logo}
                 alt="Gamalero Inmobiliaria"
-                width="100"
-                height="30"
+                 width="150"
+                 height="70"
                 loading="lazy"
               />
             </NavLink>
@@ -30,7 +30,7 @@ const FooterLinks = () => {
                   Nosotros
                 </NavLink>
               </li>
-              <li className="pb-4 pb-md-2">
+              <li>
                 <NavLink className="text-decoration-none" to="/contacto">
                   Contacto
                 </NavLink>
