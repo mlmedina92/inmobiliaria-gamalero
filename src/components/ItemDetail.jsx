@@ -4,14 +4,13 @@ import "../scss/itemDetail.scss";
 const ItemDetail = ({ detail }) => {
   return (
     <>
-      <div className="container m-4">
+      <div className="container py-4">
         <div className="row g-0">
-          <div className="col-md-7">
+          <div className="col-12 col-md-7 mb-4 mb-md-0">
             <div
               id="carouselExampleControls"
               className="carousel slide"
-              data-bs-ride="carousel"
-            >
+              data-bs-ride="carousel">
               <div className="carousel-inner">
                 {detail.imagenes.map((imagen, index) => {
                   return (
@@ -21,14 +20,12 @@ const ItemDetail = ({ detail }) => {
                         index == 0
                           ? "active carousel-item text-center"
                           : "carousel-item text-center"
-                      }
-                    >
+                      }>
                       <img
                         src={imagen}
-                        className="d-inline-block"
+                        className="d-inline-block img-fluid"
                         alt={detail.zona}
-                        loading="lazy"
-                      />
+                        loading="lazy" />
                     </div>
                   );
                 })}
@@ -51,7 +48,8 @@ const ItemDetail = ({ detail }) => {
               </button>
             </div>
           </div>
-          <div className="col-md-5 ps-md-3">
+          <div className="col-12 col-md-5 ps-md-3">
+
             <h1>{detail.titulo}</h1>
             <p>{detail.detalles}</p>
             <p className="d-flex justify-content-between">
@@ -59,7 +57,9 @@ const ItemDetail = ({ detail }) => {
               <strong>{detail.precio}</strong>
             </p>
           </div>
+
         </div>
+
       </div>
     </>
   );

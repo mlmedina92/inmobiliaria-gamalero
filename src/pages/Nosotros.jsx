@@ -29,7 +29,7 @@ const Nosotros = () => {
 
       <section id="juan" className="container py-3 py-md-5">
         <div className="row d-flex align-items-center">
-          <div className="col-8 col-md-3 mb-3 mb-md-0 text-center">
+          <div className="col-12 col-md-3 mb-3 mb-md-0 text-center">
             <img
               className="img-fluid"
               src={Juan}
@@ -39,8 +39,8 @@ const Nosotros = () => {
               width="134"
             />
           </div>
-          <div className="col-12 col-md-6 mb-3 mb-md-0">
-            <h4 className="mb-3">
+          <div className="col-12 col-md-9 mb-3 mb-md-0">
+            <h4 className="mb-3 text-center">
               Juan Pablo Gamalero - Martillero y Corredor Público.
             </h4>
 

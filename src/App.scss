@@ -18,15 +18,26 @@ body {
   text-transform: none;
 }
 
-a {
-  color: black;
-  transition: all 300ms;
-  &:hover {
-    color: grayscale($color:grey);
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  main {
+    flex-grow: 1;
   }
 }
 
-h2{
+a {
+  color: black;
+  transition: all 300ms;
+
+  &:hover {
+    color: grayscale($color: grey);
+  }
+}
+
+h2 {
   text-transform: uppercase;
   text-align: center;
 }
@@ -37,9 +48,5 @@ h2{
 }
 
 footer {
-  background-color:rgba(132, 127, 127, 0.3);
+  background-color: rgba(132, 127, 127, 0.3);
 }
-
-
-
-  

@@ -20,17 +20,17 @@ const FooterLinks = () => {
           </div>
           <div className="col-12 col-md-3 mb-3">
             <ul className="list-unstyled">
-              <li className="pb-2">
+              <li className="pb-4 pb-md-2 ">
                 <NavLink className="text-decoration-none" to="/">
                   Inicio
                 </NavLink>
               </li>
-              <li className="pb-2">
+              <li className="pb-4 pb-md-2">
                 <NavLink className="text-decoration-none" to="/nosotros">
                   Nosotros
                 </NavLink>
               </li>
-              <li className="pb-2">
+              <li className="pb-4 pb-md-2">
                 <NavLink className="text-decoration-none" to="/contacto">
                   Contacto
                 </NavLink>
@@ -39,7 +39,7 @@ const FooterLinks = () => {
           </div>
           <div className="col-12 col-md-3 mb-3">
             <ul className="list-unstyled">
-              <li className="mb-2">
+              <li className="mb-3 mb-md-2">
                 <a
                   className="text-decoration-none"
                   href="tel:2494287779"
@@ -51,7 +51,7 @@ const FooterLinks = () => {
                   Llamada
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="mb-3 mb-md-2">
                 <a
                   className="text-decoration-none"
                   href="tel:2494460909"
@@ -63,7 +63,7 @@ const FooterLinks = () => {
                   2494460909
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="mb-3 mb-md-2">
                 <a
                   className="text-decoration-none"
                   href="https://wa.me/2494328146"
@@ -75,7 +75,7 @@ const FooterLinks = () => {
                   2494328146
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="mb-3 mb-md-2">
                 <a
                   className="text-decoration-none"
                   href="https://goo.gl/maps/xDRhASVev4MzqwPs5"
